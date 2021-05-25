@@ -6,20 +6,23 @@ import {
     Redirect,
   } from 'react-router-dom';
 
-  import { SobreMi } from './SobreMi';
+import './styles.css';
+import { SobreMi } from './SobreMi';
 import { MasSobreMi } from './MasSobreMi';
-import { Home } from './Home';
+import { Portafolio } from './Portafolio';
+import { NavBar } from './NavBar';
+
 
 const AppRouter = () => {
     return ( 
         <Router>
             <div>
                 
-                {/* <NavBar /> */}
+                <NavBar />
 
                 <div className="container">
                     <Switch>
-                        <Route exact path="/" component={ Home } />
+                        <Route exact path="/" component={ Portafolio } />
 
                         <Route exact path="/SobreMi" component={ SobreMi } />
                         <Route exact path="/MasSobreMi" component={ MasSobreMi } />

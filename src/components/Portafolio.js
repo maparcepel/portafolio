@@ -1,6 +1,5 @@
 import React from 'react'
-
-export const Home = () => {
+export const Portafolio = () => {
     return (
         <div>
             home
