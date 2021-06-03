@@ -20,7 +20,7 @@ const AppRouter = () => {
                 
                 <NavBar />
 
-                <div className="container">
+                <div className="container-fluid">
                     <Switch>
                         <Route exact path="/" component={ Portafolio } />
 
