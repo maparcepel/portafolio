@@ -5,12 +5,12 @@ export const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark">
             
-            <Link 
+            {/* <Link 
                 className="navbar-brand" 
                 to="/"
             >
                 Marcel Molina
-            </Link>
+            </Link> */}
 
             <div className="navbar-collapse">
                 <div className="navbar-nav">

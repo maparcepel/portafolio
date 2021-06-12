@@ -6,7 +6,6 @@ import {
     Redirect,
   } from 'react-router-dom';
 
-import './styles.css';
 import { SobreMi } from './SobreMi';
 import { MasSobreMi } from './MasSobreMi';
 import { Portafolio } from './Portafolio';

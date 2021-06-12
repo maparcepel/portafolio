@@ -1,6 +1,6 @@
 body {
     background-color: #c65e5c;
-    background-image: url('./img/fondo.jpg');
+    background-image: url('../components/img/fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
@@ -12,7 +12,7 @@ body {
 /*********NAVBAR***********/
 
 nav {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 
@@ -32,9 +32,17 @@ nav {
     }
 }
 
-#medio-yo:parent {
-    margin-top: auto;
-    margin-bottom: auto;
+@media (max-width: 575px) {
+    #medio-yo {
+        display: none;
+    }
+    #desc {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #portafolio:first-child {
+        margin-top: 0;
+    }
 }
 
 #desc {
