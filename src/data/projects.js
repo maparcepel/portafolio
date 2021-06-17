@@ -2,7 +2,7 @@ export const projects = [{
         'title': 'Keymanager',
         'description': 'Keymanager es una aplicación web para la gestión de códigos de seguridad para centrales receptoras de alarmas. Estuve encargado del desarrollo de la API REST para gestionar la información de usuarios, clientes, locaciones y empleados. Más de 30 endpoints para dar respuesta a todo tipo de peticiones. Autenticación con Jason Web Token.',
         'tools': 'PHP, Laravel, JWT',
-        'image': 'url("/assets/projects/keymanager.png")',
+        'image': 'url("/assets/projects/keymanager.jpg")',
         'links': [{
                 'text': 'keymanager.tk',
                 'link': 'https://keymanager.tk/'
@@ -18,10 +18,10 @@ export const projects = [{
         ]
     },
     {
-        'title': 'Keymanager',
+        'title': 'Keymanager2',
         'description': 'Keymanager es una aplicación web para la gestión de códigos de seguridad para centrales receptoras de alarmas. Estuve encargado del desarrollo de la API REST para gestionar la información de usuarios, clientes, locaciones y empleados. Más de 30 endpoints para dar respuesta a todo tipo de peticiones. Autenticación con Jason Web Token.',
         'tools': 'PHP, Laravel, JWT',
-        'image': 'url("/assets/projects/keymanager.png")',
+        'image': 'url("/assets/projects/keymanager.jpg")',
         'links': [{
                 'text': 'keymanager.tk',
                 'link': 'https://keymanager.tk/'
@@ -37,10 +37,10 @@ export const projects = [{
         ]
     },
     {
-        'title': 'Keymanager',
+        'title': 'Keymanager3',
         'description': 'Keymanager es una aplicación web para la gestión de códigos de seguridad para centrales receptoras de alarmas. Estuve encargado del desarrollo de la API REST para gestionar la información de usuarios, clientes, locaciones y empleados. Más de 30 endpoints para dar respuesta a todo tipo de peticiones. Autenticación con Jason Web Token.',
         'tools': 'PHP, Laravel, JWT',
-        'image': 'url("/assets/projects/keymanager.png")',
+        'image': 'url("/assets/projects/keymanager.jpg")',
         'links': [{
                 'text': 'keymanager.tk',
                 'link': 'https://keymanager.tk/'
@@ -56,10 +56,10 @@ export const projects = [{
         ]
     },
     {
-        'title': 'Keymanager',
+        'title': 'Keymanager4',
         'description': 'Keymanager es una aplicación web para la gestión de códigos de seguridad para centrales receptoras de alarmas. Estuve encargado del desarrollo de la API REST para gestionar la información de usuarios, clientes, locaciones y empleados. Más de 30 endpoints para dar respuesta a todo tipo de peticiones. Autenticación con Jason Web Token.',
         'tools': 'PHP, Laravel, JWT',
-        'image': 'url("/assets/projects/keymanager.png")',
+        'image': 'url("/assets/projects/keymanager.jpg")',
         'links': [{
                 'text': 'keymanager.tk',
                 'link': 'https://keymanager.tk/'

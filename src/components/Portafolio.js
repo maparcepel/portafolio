@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {projects} from '../data/projects';
+import { ProjectCard } from './ProjectCard';
 
 export const Portafolio = () => {
 
@@ -32,19 +33,17 @@ export const Portafolio = () => {
             <div className='container'>
 
                 <div className="row mt-5 justify-content-around">
-                    <div className="col-12 col-sm-6 mb-5 portfolio__project" style={{backgroundImage: projects[0].image}}>
-                        
-                    </div>
 
-                    <div className="col-12  col-sm-6 mb-5 portfolio__project" style={{backgroundImage: "url('/assets/projects/keymanager.png')"}}>
-                        asdfsdf
-                    </div>
-                    <div className="col-12  col-sm-6 mb-5 portfolio__project" style={{backgroundImage: "url('/assets/projects/keymanager.png')"}}>
-                        asdfsdf
-                    </div>
-                    <div className="col-12  col-sm-6 mb-5 portfolio__project" style={{backgroundImage: "url('/assets/projects/keymanager.png')"}}>
-                        asdfsdf
-                    </div>
+                    {
+                        projects.map( project => (
+                            <ProjectCard 
+                            key={ project.title }
+                            {...project} />
+                        ))
+                    }
+                    
+                    
+                   
                 </div>
 
             </div>
