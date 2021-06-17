@@ -1,5 +1,10 @@
-import React from 'react'
+import React from 'react';
+
+import {projects} from '../data/projects';
+
 export const Portafolio = () => {
+
+    
     return (
         <div id='portafolio'>
             <div className="row mt-5">
@@ -23,6 +28,28 @@ export const Portafolio = () => {
                     
                 </div>
             </div>
+            
+            <div className='container'>
+
+                <div className="row mt-5 justify-content-around">
+                    <div className="col-12 col-sm-6 mb-5 portfolio__project" style={{backgroundImage: projects[0].image}}>
+                        
+                    </div>
+
+                    <div className="col-12  col-sm-6 mb-5 portfolio__project" style={{backgroundImage: "url('/assets/projects/keymanager.png')"}}>
+                        asdfsdf
+                    </div>
+                    <div className="col-12  col-sm-6 mb-5 portfolio__project" style={{backgroundImage: "url('/assets/projects/keymanager.png')"}}>
+                        asdfsdf
+                    </div>
+                    <div className="col-12  col-sm-6 mb-5 portfolio__project" style={{backgroundImage: "url('/assets/projects/keymanager.png')"}}>
+                        asdfsdf
+                    </div>
+                </div>
+
+            </div>
+
+            
         </div>
     )
 }

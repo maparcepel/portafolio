@@ -1,25 +1,44 @@
 $background: #c65e5c;
 html,
 body {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 
 body {
     background-color: $background;
-    background-image: url('../components/img/fondo.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../components/img/background.jpg');
     background-size: cover;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
     color: white
 }
 
-main {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.portfolio__project {
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+@media(max-width: 1400px) {
+    .portfolio__project {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media(max-width: 991px) {
+    .portfolio__project {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 767px) {
+    .portfolio__project {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
@@ -63,6 +82,8 @@ nav {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.portfolio__project {}
 
 
 /*********SOBRE MI***********/
