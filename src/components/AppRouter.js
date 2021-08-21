@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Redirect,
@@ -15,11 +15,12 @@ import { NavBar } from './NavBar';
 const AppRouter = () => {
     return ( 
         <Router>
-            <div>
+            
+                
+                
+
                 
                 <NavBar />
-
-                <div className="container-fluid">
                     <Switch>
                         <Route exact path="/" component={ Portafolio } />
 
@@ -29,8 +30,8 @@ const AppRouter = () => {
                         <Redirect to="/" />
 
                     </Switch>
-                </div>
-            </div>
+                
+            
         </Router>
     )
 }
