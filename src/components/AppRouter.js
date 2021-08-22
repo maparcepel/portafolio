@@ -16,20 +16,17 @@ const AppRouter = () => {
     return ( 
         <Router>
             
-                
-                
+            <NavBar />
+            
+            <Switch>
+                <Route exact path="/" component={ Portafolio } />
 
+                <Route exact path="/SobreMi" component={ SobreMi } />
+                <Route exact path="/MasSobreMi" component={ MasSobreMi } />
                 
-                <NavBar />
-                    <Switch>
-                        <Route exact path="/" component={ Portafolio } />
+                <Redirect to="/" />
 
-                        <Route exact path="/SobreMi" component={ SobreMi } />
-                        <Route exact path="/MasSobreMi" component={ MasSobreMi } />
-                        
-                        <Redirect to="/" />
-
-                    </Switch>
+            </Switch>
                 
             
         </Router>

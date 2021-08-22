@@ -1,77 +1,76 @@
+const url = '/assets/projects/icon_url.png';
+const github = '/assets/projects/icon_github.png'
+const github_title = 'Github'
+const postman = '/assets/projects/icon_postman.png'
+const postman_title = 'Documentación (Postman)'
+
 export const projects = [{
-        'title': 'Keymanager',
-        'description': 'Desarrollo de la API REST para la aplicación web Keymanager, para gestión de códigos de seguridad de centrales receptoras de alarmas. Gestiona la información de usuarios, clientes, locaciones y empleados. Más de 30 endpoints para dar respuesta a todo tipo de peticiones. Autenticación con Jason Web Token.',
-        'tools': 'PHP, Laravel, JWT',
+        'title': 'API Keymanager',
+        'description': 'Desarrollo de la API REST (PHP, Laravel, JWT) para la aplicación web Keymanager, para gestión de códigos de seguridad de centrales receptoras de alarmas. Gestiona la información de usuarios, clientes, ubicaciones y empleados. Más de 30 endpoints para responder a todo tipo de peticiones. Autenticación con Jason Web Token.',
         'image': "/assets/projects/keymanager.jpg",
         'links': [{
-                'text': 'keymanager.tk',
-                'link': 'https://keymanager.tk/'
+                'icon': url,
+                'url': 'https://keymanager.tk/'
             },
             {
-                'text': 'Documentación (Postman)',
-                'link': 'https://documenter.getpostman.com/view/10581396/TVsxCSKs'
+                'icon': github,
+                'url': 'https://github.com/maparcepel/KeyManager-API'
             },
             {
-                'text': 'Github',
-                'link': 'https://github.com/maparcepel/KeyManager-API'
+                'icon': postman,
+                'url': 'https://documenter.getpostman.com/view/10581396/TVsxCSKs'
             }
         ]
     },
     {
-        'title': 'Estudio de grabación Binary Sunset',
-        'description': 'Web desarrollada con React, con estilo retro para atraer músicos que valoran el encanto de los instrumentos y la tecnología musical clásica',
-        'tools': 'React, Bootstrap',
-        'image': "/assets/projects/keymanager.jpg",
+        'title': 'Binary Sunset',
+        'description': 'Web desarrollada con React, Bootstrap y Sass para el estudio de grabación Binary Sunset.',
+        'image': "/assets/projects/binary_sunset.jpg",
         'links': [{
-                'text': 'keymanager.tk',
-                'link': 'https://keymanager.tk/'
+                'icon': url,
+                'url': 'https://binarysunsetestudio.com'
             },
             {
-                'text': 'Documentación (Postman)',
-                'link': 'https://documenter.getpostman.com/view/10581396/TVsxCSKs'
-            },
-            {
-                'text': 'Github',
-                'link': 'https://github.com/maparcepel/KeyManager-API'
+                'icon': github,
+                'url': 'https://github.com/maparcepel/new-binary-sunset'
             }
         ]
     },
     {
-        'title': 'Grupo musical Low Blows',
-        'description': 'Web para el grupo de estética post punk Low Blows.',
-        'tools': 'Html, CSS, Bootstrap',
-        'image': "/assets/projects/keymanager.jpg",
+        'title': 'Low Blows',
+        'description': 'Web desarrollada con Html, CSS, Bootstrap para el grupo post punk Low Blows.',
+        'image': "/assets/projects/blows.jpg",
         'links': [{
-                'text': 'keymanager.tk',
-                'link': 'https://keymanager.tk/'
+                'icon': url,
+                'url': 'http://blows.tk/'
             },
             {
-                'text': 'Documentación (Postman)',
-                'link': 'https://documenter.getpostman.com/view/10581396/TVsxCSKs'
-            },
-            {
-                'text': 'Github',
-                'link': 'https://github.com/maparcepel/KeyManager-API'
+                'icon': github,
+                'url': 'https://github.com/maparcepel/Low_Blows'
             }
         ]
     },
     {
         'title': 'API App Delivery',
-        'description': 'Api desarrollada con Laravel para realizar pedidos y recuperarlos con el detalle de productos incluidos. Listar productos filtrados por tipo, categoría o subcategoría o buscarlos a partir de un texto. Obtener el listado de categorías y subcategorías. Historial de pedidos. Además de registro y login de usuarios.',
-        'tools': 'PHP, Laravel, Passport',
-        'image': "/assets/projects/keymanager.jpg",
+        'description': 'Api desarrollada con PHP, Laravel y Passport para realizar pedidos y recuperarlos con el detalle de productos incluidos. Listar productos filtrados por tipo, categoría o subcategoría o buscarlos a partir de un texto. Obtener el listado de categorías y subcategorías. Historial de pedidos. Además de registro y login de usuarios.',
+        'image': "/assets/projects/delivery.jpg",
         'links': [{
-                'text': 'keymanager.tk',
-                'link': 'https://keymanager.tk/'
+                'icon': github,
+                'url': 'https://github.com/maparcepel/API-app-delivery'
             },
             {
-                'text': 'Documentación (Postman)',
-                'link': 'https://documenter.getpostman.com/view/10581396/TVsxCSKs'
-            },
-            {
-                'text': 'Github',
-                'link': 'https://github.com/maparcepel/KeyManager-API'
+                'icon': postman,
+                'url': 'https://documenter.getpostman.com/view/10581396/TzmCiDxs'
             }
         ]
+    },
+    {
+        'title': 'sinergia.business',
+        'description': 'Web desarrollada con Wordpress y Divi para esta asociación de empresas del sector tecnológico de Cataluña.',
+        'image': "/assets/projects/sinergia.jpg",
+        'links': [{
+            'icon': url,
+            'url': 'https://sinergia.business/'
+        }]
     }
 ];

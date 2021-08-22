@@ -3,7 +3,6 @@ import React from 'react'
 export const ProjectCard = ({
     title,
     description,
-    tools,
     image,
     links
 }) => {
@@ -15,14 +14,20 @@ export const ProjectCard = ({
                     <p>{title}</p>
                 </div>           
 
-                <div className="portfolioCard__content" 
-                // style={{backgroundImage: `url(${image})`}}
-                >
+                <div className='portfolioCard__image'>
+                    <img className='img-fluid' src={image} alt="Project" />
+                </div>  
+
+                <div className="portfolio__description">
                     <p>{description}</p>
                 </div>  
 
-                <div className="portfolioCard__links">
-                    <p>{tools}</p>
+                <div className="portfolioCard__links d-flex justify-content-around">
+                    {
+                        links.map( link =>(
+                            <img key={link.url} src={link.icon} title={link.title} alt=""/>
+                        ))
+                    }
                 </div> 
 
             </div>
