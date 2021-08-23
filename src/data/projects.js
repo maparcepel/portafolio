@@ -6,7 +6,7 @@ const postman_title = 'Documentación (Postman)'
 
 export const projects = [{
         'title': 'API Keymanager',
-        'description': 'Desarrollo de la API REST (PHP, Laravel, JWT) de la aplicación web Keymanager, que facilita la gestión de códigos de seguridad de centrales receptoras de alarmas. Gestiona la información de usuarios, clientes, ubicaciones y empleados. Más de 30 endpoints para responder a todo tipo de peticiones.',
+        'description': 'Desarrollo de la API REST (PHP, Laravel, JWT) de esta aplicación web, que facilita la gestión de códigos de seguridad de centrales receptoras de alarmas. La API gestiona la información de usuarios, clientes, ubicaciones y empleados. Más de 30 endpoints para responder a todo tipo de peticiones.',
         'image': "/assets/projects/keymanager.jpg",
         'links': [{
                 'icon': url,

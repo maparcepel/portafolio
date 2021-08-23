@@ -16,8 +16,16 @@ body {
     color: white
 }
 
+#root {
+    height: 100%;
+}
+
+.main-container {
+    height: 100%;
+}
+
 @import 'navBar';
 @import 'portafolio';
 // @import 'sobreMi';
 // @import 'masSobreMi';
-// @import 'contacto';
+@import 'contacto';
