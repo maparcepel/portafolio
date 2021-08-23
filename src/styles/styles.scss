@@ -1,0 +1,23 @@
+$background: #c65e5c;
+$blue: #265e84;
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background;
+    background-image: url('../components/img/background.jpg');
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    color: white
+}
+
+@import 'navBar';
+@import 'portafolio';
+// @import 'sobreMi';
+// @import 'masSobreMi';
+// @import 'contacto';
