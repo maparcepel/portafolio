@@ -6,7 +6,7 @@ const postman_title = 'Documentación (Postman)'
 
 export const projects = [{
         'title': 'API Keymanager',
-        'description': 'Desarrollo de la API REST (PHP, Laravel, JWT) para la aplicación web Keymanager, para gestión de códigos de seguridad de centrales receptoras de alarmas. Gestiona la información de usuarios, clientes, ubicaciones y empleados. Más de 30 endpoints para responder a todo tipo de peticiones. Autenticación con Jason Web Token.',
+        'description': 'Desarrollo de la API REST (PHP, Laravel, JWT) de la aplicación web Keymanager, que facilita la gestión de códigos de seguridad de centrales receptoras de alarmas. Gestiona la información de usuarios, clientes, ubicaciones y empleados. Más de 30 endpoints para responder a todo tipo de peticiones.',
         'image': "/assets/projects/keymanager.jpg",
         'links': [{
                 'icon': url,
@@ -65,7 +65,7 @@ export const projects = [{
         ]
     },
     {
-        'title': 'sinergia.business',
+        'title': 'Sinergia',
         'description': 'Web desarrollada con Wordpress y Divi para esta asociación de empresas del sector tecnológico de Cataluña.',
         'image': "/assets/projects/sinergia.jpg",
         'links': [{
