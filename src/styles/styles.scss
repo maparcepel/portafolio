@@ -1,5 +1,17 @@
 $background: #c65e5c;
 $blue: #265e84;
+$grey: rgba(255, 255, 255, 0.487);
+.grey {
+    color: $grey;
+}
+
+%glass {
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 5px 20px 0 rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur( 3.0px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 html,
 body {
     height: 100%;
@@ -26,6 +38,6 @@ body {
 
 @import 'navBar';
 @import 'portafolio';
-// @import 'sobreMi';
-// @import 'masSobreMi';
+@import 'sobreMi';
+@import 'masSobreMi';
 @import 'contacto';

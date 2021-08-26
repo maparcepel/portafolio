@@ -38,14 +38,12 @@ export const NavBar = () => {
                         Más sobre mí
                     </NavLink>
 
-                    <NavLink 
-                        activeClassName="active"
+                    <a 
                         className="nav-item nav-link" 
-                        exact
-                        to="/Contacto"
+                        href='#contacto'
                     >
                         Contacto
-                    </NavLink>
+                    </a>
                         
                     </div>
                 </div>

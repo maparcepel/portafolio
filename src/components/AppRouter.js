@@ -32,7 +32,7 @@ const AppRouter = () => {
                     </Switch>
                     
                 </div>
-                <div>
+                <div id='contacto'>
                     <Contacto />
                 </div>
 
