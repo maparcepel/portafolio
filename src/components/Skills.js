@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Skills = () => {
     return (
-        <div>
+        <div className='animate__animated animate__fadeIn'>
             <div className='row mt-5 justify-content-center'>
                 <div className='col text-center'>
                     <h4 className='conocimientos'>CONOCIMIENTOS</h4>

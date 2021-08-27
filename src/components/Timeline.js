@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Timeline = () => {
     return (
-        <div className='row mt-5' id='timeline'>
+        <div className='row mt-5 animate__animated animate__fadeIn' id='timeline'>
             <div className='col-6 text-end pe-0 mb-1'>
                 <h4 className='formacion'>FORMACIÓN</h4>
             </div>
@@ -82,7 +82,7 @@ export const Timeline = () => {
             </div>
 
             <div className='col-6 sobre-mi-left'>
-                <h4>Curs Desenvolupament d'aplicacions amb tecnologies web</h4>
+                <h4>Curso Desarrollo de aplicaciones con tecnologías web</h4>
                 <p>
                     <a href="https://www.talent.upc.edu/" target='blank'>UPC School (Universitat Politècnica de Catalunya)</a>. <br/>Programación web en el entornos cliente y servidor, implantación de aplicaciones web en entorno internet, intranet y extranet, módulo de prácticas profesionales en la empresa Clicko
                 </p>
@@ -132,7 +132,7 @@ export const Timeline = () => {
             </div>
 
             <div className='col-6 sobre-mi-right'>
-                <h4>Diseñador web en <a href="https://procorpweb.com/" target='blank'>Porcorp</a> </h4>              
+                <h4>Diseñador web en <a href="https://procorpweb.com/" target='blank'>Porcorp</a> (Chile)</h4>              
             </div>
 
             <div className='col-6 year'>
@@ -142,7 +142,20 @@ export const Timeline = () => {
             </div>
 
             <div className='col-6 sobre-mi-right'>
-            <h4>Diseñador web en Innova</h4>           
+                <h4>Diseñador web en Innova (Chile)</h4>           
+            </div>
+
+            <div className='col-6 sobre-mi-left'>
+                <h4>Publicidad  </h4>       
+                <p>
+                <a href="https://www.duoc.cl/" target='blank'>Duoc UC</a> (Chile)
+                </p>         
+            </div>
+
+            <div className='col-6 year'>
+                <div className='year-left'>
+                    1990
+                </div>
             </div>
         </div>
     )
