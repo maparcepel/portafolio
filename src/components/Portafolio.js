@@ -8,7 +8,7 @@ export const Portafolio = () => {
     
     return (
         <div id='portafolio'>
-            <div className="container-fluid" >
+            <div className="container-fluid animate__animated animate__fadeIn" >
                 <div className="row mt-5">
                     <div className="col-xs-2 col-sm-2 col-md-2 col-lg-1 p-0">
                         <img  className='portfolio__face' src={'/assets/face.png'} alt="Marcel" />
@@ -32,7 +32,7 @@ export const Portafolio = () => {
                 </div>
             </div>
             
-            <div className='container projects'>
+            <div className='container projects animate__animated animate__fadeIn'>
 
                 <div className="row mt-5">
 
@@ -43,14 +43,13 @@ export const Portafolio = () => {
                             {...project} />
                         ))
                     }
-                    
-                    
-                   
+                                       
                 </div>
 
             </div>
 
             
         </div>
+        
     )
 }

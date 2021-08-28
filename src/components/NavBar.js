@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const NavBar = () => {
     return (
@@ -38,12 +39,12 @@ export const NavBar = () => {
                         Más sobre mí
                     </NavLink>
 
-                    <a 
-                        className="nav-item nav-link" 
-                        href='#contacto'
+                    <Link 
+                    className="nav-item nav-link" 
+                    to="#contacto"
                     >
-                        Contacto
-                    </a>
+                        Contacto</Link>
+                    
                         
                     </div>
                 </div>

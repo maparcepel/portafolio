@@ -1,8 +1,6 @@
 const url = '/assets/projects/icon_url.png';
 const github = '/assets/projects/icon_github.png'
-const github_title = 'Github'
 const postman = '/assets/projects/icon_postman.png'
-const postman_title = 'Documentación (Postman)'
 
 export const projects = [{
         'title': 'API Keymanager',

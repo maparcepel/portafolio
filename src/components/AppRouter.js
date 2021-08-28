@@ -30,8 +30,8 @@ const AppRouter = () => {
                         <Redirect to="/" />
 
                     </Switch>
-                    
                 </div>
+                
                 <div id='contacto'>
                     <Contacto />
                 </div>

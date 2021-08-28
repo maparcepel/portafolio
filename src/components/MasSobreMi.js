@@ -2,6 +2,7 @@ import React from 'react'
 
 export const MasSobreMi = () => {
     return (
+        
         <div id='masSobreMi' className='container mt-5 animate__animated animate__fadeIn'>
             
             <div className='row'>
@@ -48,8 +49,6 @@ export const MasSobreMi = () => {
                 </div>
             </div>
             
-        
-
-    </div>
+        </div>
     )
 }
