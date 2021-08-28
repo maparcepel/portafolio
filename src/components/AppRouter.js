@@ -10,23 +10,33 @@ import { SobreMi } from './SobreMi';
 import { MasSobreMi } from './MasSobreMi';
 import { Portafolio } from './Portafolio';
 import { NavBar } from './NavBar';
+import { Contacto } from './Contacto';
 
 
 const AppRouter = () => {
     return ( 
         <Router>
-            
-            <NavBar />
-            
-            <Switch>
-                <Route exact path="/" component={ Portafolio } />
+            <div className='d-flex flex-column justify-content-between main-container'>
 
-                <Route exact path="/SobreMi" component={ SobreMi } />
-                <Route exact path="/MasSobreMi" component={ MasSobreMi } />
+                <div>
+                    <NavBar />
+                    
+                    <Switch>
+                        <Route exact path="/" component={ Portafolio } />
+
+                        <Route exact path="/SobreMi" component={ SobreMi } />
+                        <Route exact path="/MasSobreMi" component={ MasSobreMi } />
+                        
+                        <Redirect to="/" />
+
+                    </Switch>
+                </div>
                 
-                <Redirect to="/" />
+                <div id='contacto'>
+                    <Contacto />
+                </div>
 
-            </Switch>
+            </div>
                 
             
         </Router>

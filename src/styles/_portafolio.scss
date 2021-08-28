@@ -16,17 +16,13 @@
     .portfolio__face {
         display: none;
     }
-    // .portfolio__description {
-    //     padding-left: 2rem;
-    //     padding-right: 2rem;
-    // }
     #portafolio:first-child {
         margin-top: 0;
     }
 }
 
 .projects {
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 .portfolio__card {
@@ -39,29 +35,11 @@
     height: 100%;
 }
 
-// @media(max-width: 1400px) {
-//     .portfolio__card {
-//         width: 400px;
-//         height: 400px;
-//     }
-// }
-// @media(max-width: 991px) {
-//     .portfolio__card {
-//         width: 300px;
-//         height: 300px;
-//     }
-// }
-// @media(max-width: 767px) {
-//     .portfolio__card {
-//         width: 200px;
-//         height: 200px;
-//     }
-// }
 .portfolioCard__title {
     border-radius: 13px 13px 0 0;
     padding: 1.6rem 1rem .5rem 1rem;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.7rem;
 }
 
 .portfolioCard__image {

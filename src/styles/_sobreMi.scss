@@ -1,0 +1,88 @@
+#sobreMi {
+    p {
+        font-size: 1rem;
+    }
+    a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        &:hover {
+            font-weight: 600;
+        }
+    }
+}
+
+.conocimientos {
+    padding: 6px 20px;
+    border-radius: 10px;
+    @extend %glass;
+    display: inline;
+}
+
+.skills {
+    p {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .skills {
+        margin-left: 60px;
+    }
+}
+
+#timeline {
+    margin-top: 100px!important;
+    margin-bottom: 150px;
+}
+
+.formacion,
+.experiencia {
+    display: inline;
+    padding: 6px 20px;
+    @extend %glass;
+}
+
+.formacion {
+    border-radius: 10px 0 0 10px;
+}
+
+.experiencia {
+    border-radius: 0 10px 10px 0;
+}
+
+.sobre-mi-left {
+    border-right: 1px solid $blue;
+    border-bottom: 1px solid $blue;
+    padding: 26px 20px 15px 0;
+    text-align: right;
+}
+
+.sobre-mi-right {
+    border-left: 1px solid $blue;
+    border-bottom: 1px solid $blue;
+    padding: 26px 0 15px 20px;
+}
+
+.year {
+    position: relative;
+}
+
+.year-left {
+    display: inline;
+    padding: 0 9px 3px 9px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -15px;
+    left: -29px;
+    @extend %glass;
+}
+
+.year-right {
+    display: inline;
+    padding: 0 9px 3px 9px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -15px;
+    right: -29px;
+    @extend %glass;
+}

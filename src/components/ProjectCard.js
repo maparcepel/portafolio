@@ -6,6 +6,17 @@ export const ProjectCard = ({
     image,
     links
 }) => {
+
+
+    const handleTitle = (icon, url) =>{
+        if(icon === '/assets/projects/icon_url.png'){
+            return url;
+        }else if(icon === '/assets/projects/icon_github.png'){
+            return 'Github';
+        }
+        return 'Documentación (Postman)';
+        
+    }
     return (
         
         <div className="col-md-6 col-lg-4 col-xl-3 mb-5" >
@@ -27,7 +38,9 @@ export const ProjectCard = ({
                 <div className="portfolioCard__links d-flex justify-content-around">
                     {
                         links.map( link =>(
-                            <img key={link.url} src={link.icon} title={link.title} alt=""/>
+                            <a key={link.url} href={link.url} target='blank'>
+                                <img src={link.icon} title={handleTitle(link.icon, link.url)} alt={link.title}/>
+                            </a>
                         ))
                     }
                 </div> 

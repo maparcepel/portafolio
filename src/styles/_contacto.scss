@@ -1,0 +1,26 @@
+.contacto {
+    background-color: $blue;
+}
+
+.contact-info {
+    padding-left: 16px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 460px) {
+    .contacto .container {
+        flex-direction: column;
+    }
+    .contact-info {
+        padding-left: 0;
+        text-align: center;
+    }
+}
