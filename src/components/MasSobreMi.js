@@ -44,7 +44,7 @@ export const MasSobreMi = () => {
 
                 <div className='col-12 col-md-4 d-flex align-items-end'>
                     <p className='mb-0'>
-                        Soy un fanático de los libros y películas de ciencia ficción, las distopías, las aventuras postapocalípticas o las space óperas.                     
+                        Soy un fanático de los libros y películas de ciencia ficción, las distopías, las aventuras postapocalípticas, las space óperas.                     
                     </p>
                 </div>
             </div>

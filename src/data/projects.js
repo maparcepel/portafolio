@@ -4,7 +4,7 @@ const postman = '/assets/projects/icon_postman.png'
 
 export const projects = [{
         'title': 'API Keymanager',
-        'description': 'Desarrollo de la API REST (PHP, Laravel, JWT) de esta aplicación web, que facilita la gestión de códigos de seguridad de centrales receptoras de alarmas. La API gestiona la información de usuarios, clientes, ubicaciones y empleados. Más de 30 endpoints para responder a todo tipo de peticiones.',
+        'description': 'Desarrollo de la API REST (PHP, Laravel, JWT) de esta web que facilita la gestión de códigos de seguridad de centrales receptoras de alarmas. La API gestiona la información de usuarios, clientes, ubicaciones y empleados. Más de 30 endpoints para responder a todo tipo de peticiones.',
         'image': "/assets/projects/keymanager.jpg",
         'links': [{
                 'icon': url,
@@ -22,7 +22,7 @@ export const projects = [{
     },
     {
         'title': 'Binary Sunset',
-        'description': 'Web desarrollada con React, Bootstrap y Sass para el estudio de grabación Binary Sunset.',
+        'description': 'Web desarrollada con React, Bootstrap y Sass para la renovación de la imagen del estudio de grabación Binary Sunset.',
         'image': "/assets/projects/binary_sunset.jpg",
         'links': [{
                 'icon': url,

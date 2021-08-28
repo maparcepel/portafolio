@@ -3,11 +3,11 @@ import React from 'react'
 export const Timeline = () => {
     return (
         <div className='row mt-5 animate__animated animate__fadeIn' id='timeline'>
-            <div className='col-6 text-end pe-0 mb-1'>
-                <h4 className='formacion'>FORMACIÓN</h4>
+            <div className='col-6 text-center pe-0 mb-4'>
+                <h4 className='timeline-title'>FORMACIÓN</h4>
             </div>
-            <div className='col-6 text-start ps-0 mb-1'>
-                <h4 className='experiencia'>EXPERIENCIA</h4>
+            <div className='col-6 text-center ps-0 mb-4'>
+                <h4 className='timeline-title'>EXPERIENCIA</h4>
             </div>
 
 

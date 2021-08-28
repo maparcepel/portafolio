@@ -32,7 +32,7 @@ export const Portafolio = () => {
                 </div>
             </div>
             
-            <div className='container projects animate__animated animate__fadeIn'>
+            <div className='container projects animate__animated animate__fadeIn mb-5'>
 
                 <div className="row mt-5">
 

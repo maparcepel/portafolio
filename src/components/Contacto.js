@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contacto = () => {
     return (
-        <div className='d-flex contacto py-3'>
+        <div className='d-flex contacto'>
             <div className='container d-flex justify-content-center align-items-center'>
 
                 <img src={'assets/marcel.png'} alt="" />
