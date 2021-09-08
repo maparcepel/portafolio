@@ -5,9 +5,11 @@ export const Timeline = () => {
         <div className='row mt-5 animate__animated animate__fadeIn' id='timeline'>
             <div className='col-6 text-center pe-0 mb-4'>
                 <h4 className='timeline-title'>FORMACIÓN</h4>
+                <i className="fas fa-caret-down me-1"></i>
             </div>
             <div className='col-6 text-center ps-0 mb-4'>
                 <h4 className='timeline-title'>EXPERIENCIA</h4>
+                <i className="fas fa-caret-down me-1"></i>
             </div>
 
 
@@ -54,7 +56,7 @@ export const Timeline = () => {
             </div>
 
             <div className='col-6 sobre-mi-left'>
-                <h4>C.F.G.S. Desenvolupament d'aplicacions web</h4>
+                <h4>Grado superior en Desarrollo de Aplicaciones Web</h4>
                 <p>
                     <a href="https://ioc.xtec.cat/educacio/cfgs-daw" target='blank'>Institut Obert de Catalunya (IOC)</a>.
                 </p>

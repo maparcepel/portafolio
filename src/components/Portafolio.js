@@ -37,9 +37,9 @@ export const Portafolio = () => {
                 <div className="row mt-5">
 
                     {
-                        projects.map( project => (
+                        projects.map( (project, i) => (
                             <ProjectCard 
-                            key={ project.title }
+                            key={ i }
                             {...project} />
                         ))
                     }
