@@ -16,12 +16,24 @@
     }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 750px) {
     .contacto .container {
         flex-direction: column;
     }
     .contact-info {
         padding-left: 0;
         text-align: center;
+    }
+}
+
+form {
+    max-width: 600px!important;
+    button {
+        color: white!important;
+        background-color: $background!important;
+        border: none;
+        &:focus {
+            outline: 0 !important;
+        }
     }
 }
