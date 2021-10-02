@@ -1,6 +1,7 @@
-import React from 'react'
-import  Constants from '../constants'
-import  {useForm} from '../hooks/useForm'
+import React, {useState} from 'react';
+import  Constants from '../constants';
+import  {useForm} from '../hooks/useForm';
+import validator from 'validator';
 
 export const Form = () => {
 
@@ -14,20 +15,38 @@ export const Form = () => {
 
     const formData = JSON.stringify(values);
 
-    const handleSubmit = async (e) => {
+    const [submitFeedback, setSubmitFeedback] = useState('');
+
+    const [buttonDisabled, setButtonDisabled] = useState(false);
+
+    const handleSubmit =  (e) => {
         e.preventDefault();
-        await fetch(Constants.API_ROUTE + 'mailer.php', {
-            method: 'POST',
-            body: formData
-        })
-            .then(response => response.json())
-            .then(data => console.log(data));     
-    }
+
+        if(!name || !email || !message){
+            setSubmitFeedback('Todos los campos son obligatorios.');
+        }else if(!validator.isEmail(email)){
+            setSubmitFeedback('Debes escribir un email válido.');
+        }else{
+            setSubmitFeedback('Enviando...');
+
+            fetch(Constants.API_ROUTE + 'mailer.php', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => response.text())
+                .then(data => {
+                    setSubmitFeedback(data);
+                    reset();
+                })
+                .catch(error => setSubmitFeedback('Ups. Algo ha fallado.  Inténtalo más tarde.'));
+                setButtonDisabled(true);
+        }
+    }   
 
     return (
         <form className='container mt-5'>
             <div className="mb-3">
-                <label htmlFor="name" className="form-label">Nombre</label>
+                <label htmlFor="name" className="form-label">Nombre*</label>
                 <input 
                     type="text" 
                     className="form-control" 
@@ -39,7 +58,7 @@ export const Form = () => {
                     />
             </div>
             <div className="mb-3">
-                <label htmlFor="email" className="form-label">Email</label>
+                <label htmlFor="email" className="form-label">Email*</label>
                 <input 
                     type="email" 
                     className="form-control" 
@@ -51,7 +70,7 @@ export const Form = () => {
                 />
             </div>
             <div className="mb-3">
-                <label htmlFor="comments" className="form-label">Mensaje</label>
+                <label htmlFor="comments" className="form-label">Mensaje*</label>
                 <textarea 
                     rows="4" 
                     className="form-control" 
@@ -62,7 +81,8 @@ export const Form = () => {
                 />
             </div>
             
-            <button onClick={ handleSubmit } type="submit" className="btn">Enviar</button>
+            <button disabled={buttonDisabled} onClick={ handleSubmit } type="submit" className="btn">Enviar</button>
+            <span className="submitFeedback">{ submitFeedback }</span>
         </form>
     )
 }
