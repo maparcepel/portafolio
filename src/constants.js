@@ -1,5 +1,5 @@
 const Constants = {
-    API_ROUTE: "http://localhost/portafolio-mailer/",
+    API_ROUTE: "https://marcelmolina.net/portafolio-mailer/",
 }
 
 export default Constants;

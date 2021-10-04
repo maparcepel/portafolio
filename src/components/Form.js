@@ -33,12 +33,15 @@ export const Form = () => {
                 method: 'POST',
                 body: formData
             })
-                .then(response => response.text())
-                .then(data => {
-                    setSubmitFeedback(data);
-                    reset();
+                .then(response => { 
+                    if(response.ok) {
+                        setSubmitFeedback('Tu mensaje se ha enviado correctamente.');
+                        reset();
+                    }else{
+                        setSubmitFeedback('Ups. Algo ha fallado. Escríbeme a info@marcelmolina.net.');
+                    }
                 })
-                .catch(error => setSubmitFeedback('Ups. Algo ha fallado.  Inténtalo más tarde.'));
+                .catch(error => setSubmitFeedback('Ups. Algo ha fallado. Envíame un email a info@marcelmolina.net.'));
                 setButtonDisabled(true);
         }
     }   
