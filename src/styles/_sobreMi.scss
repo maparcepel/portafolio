@@ -60,8 +60,14 @@
     padding: 26px 3px 15px 20px;
 }
 
-.year {
+.year-l {
     position: relative;
+    border-left: 1px solid $blue;
+}
+
+.year-r {
+    position: relative;
+    border-right: 1px solid $blue;
 }
 
 .year-left {

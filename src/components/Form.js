@@ -41,7 +41,7 @@ export const Form = () => {
                         setSubmitFeedback('Ups. Algo ha fallado. Escríbeme a info@marcelmolina.net.');
                     }
                 })
-                .catch(error => setSubmitFeedback('Ups. Algo ha fallado. Envíame un email a info@marcelmolina.net.'));
+                .catch(error => setSubmitFeedback('Ups. Algo ha fallado. Puedes escribirme a info@marcelmolina.net.'));
                 setButtonDisabled(true);
         }
     }   

@@ -12,6 +12,17 @@ export const Timeline = () => {
                 <i className="fas fa-caret-down me-1"></i>
             </div>
 
+            <div className='col-6 year-r'>
+                
+            </div>
+
+            <div className='col-6 sobre-mi-right'>
+                <h4>Desarrollador Full Stack en <a href="https://es.linkedin.com/company/grability-inc-" target='blank'>Grability</a> </h4>
+                <p>
+                   
+                </p>
+                
+            </div>
 
             <div className='col-6 sobre-mi-left'>
                 <h4>Curso React: De cero a experto ( Hooks y MERN )</h4>
@@ -20,10 +31,8 @@ export const Timeline = () => {
                 </p>
             </div>
 
-            <div className='col-6 year'>
-                <div className='year-left'>
-                    2021
-                </div>
+            <div className='col-6 year-l'>
+                
                 
             </div>
 
@@ -34,14 +43,14 @@ export const Timeline = () => {
                 </p>
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-l'>
                 <div className='year-left'>
                     2021
                 </div>
                 
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-r'>
                 <div className='year-right'>
                     2020
                 </div>
@@ -62,17 +71,13 @@ export const Timeline = () => {
                 </p>
             </div>
 
-            <div className='col-6 year'>
-                <div className='year-left'>
-                    2019
-                </div>
+            <div className='col-6 year-l'>
+                
                 
             </div>
 
-            <div className='col-6 year'>
-                <div className='year-right'>
-                    2019
-                </div>
+            <div className='col-6 year-r'>
+                
             </div>
 
             <div className='col-6 sobre-mi-right'>
@@ -90,14 +95,14 @@ export const Timeline = () => {
                 </p>
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-l'>
                 <div className='year-left'>
                     2019
                 </div>
                 
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-r'>
                 <div className='year-right'>
                     2014
                 </div>
@@ -107,7 +112,7 @@ export const Timeline = () => {
                 <h4 className='grey'>Técnico de sonido en estudio  <a href="http://binarysunsetestudio.com/#/" target='blank'><span className='grey'>Binary Sunset</span></a> </h4>                
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-r'>
                 <div className='year-right'>
                     2005
                 </div>
@@ -117,7 +122,7 @@ export const Timeline = () => {
                 <h4 className='grey'>Teleoperador Movistar</h4>                
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-r'>
                 <div className='year-right'>
                     2003
                 </div>
@@ -127,7 +132,7 @@ export const Timeline = () => {
                 <h4 className='grey'>Comercial Auna</h4>                
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-r'>
                 <div className='year-right'>
                     1998
                 </div>
@@ -137,7 +142,7 @@ export const Timeline = () => {
                 <h4>Diseñador web en <a href="https://procorpweb.com/" target='blank'>Porcorp</a> (Chile)</h4>              
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-r'>
                 <div className='year-right'>
                     1996
                 </div>
@@ -154,7 +159,7 @@ export const Timeline = () => {
                 </p>         
             </div>
 
-            <div className='col-6 year'>
+            <div className='col-6 year-l'>
                 <div className='year-left'>
                     1990
                 </div>
