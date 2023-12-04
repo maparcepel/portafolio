@@ -4,7 +4,7 @@ import {
     Switch,
     Route,
     Redirect,
-  } from 'react-router-dom';
+} from 'react-router-dom';
 
 import { SobreMi } from './SobreMi';
 import { MasSobreMi } from './MasSobreMi';
@@ -14,31 +14,31 @@ import { Contacto } from './Contacto';
 
 
 const AppRouter = () => {
-    return ( 
+    return (
         <Router>
             <div className='d-flex flex-column justify-content-between main-container'>
 
                 <div>
                     <NavBar />
-                    
-                    <Switch>
-                        <Route exact path="/" component={ Portafolio } />
 
-                        <Route exact path="/SobreMi" component={ SobreMi } />
-                        <Route exact path="/MasSobreMi" component={ MasSobreMi } />
-                        
+                    <Switch>
+                        <Route exact path="/" component={Portafolio} />
+
+                        <Route exact path="/SobreMi" component={SobreMi} />
+                        <Route exact path="/MasSobreMi" component={MasSobreMi} />
+
                         <Redirect to="/" />
 
                     </Switch>
                 </div>
-                
+
                 <div id='contacto'>
                     <Contacto />
                 </div>
 
             </div>
-                
-            
+
+
         </Router>
     )
 }
