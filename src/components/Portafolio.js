@@ -35,13 +35,13 @@ export const Portafolio = () => {
             </div>
 
             <div className='container projects animate__animated animate__fadeIn mb-5'>
-                <div className="row mt-5 mb-5">
+                <div className="row mt-5 mb-5" id='intro'>
                     <div className="col-md-6">
-                        <p><a href="https://www.grability.com" target='_blank' rel="noreferrer"><strong>Grability</strong></a> es la empresa responsable de la app de <strong>El Corte Inglés Supermercado</strong> y el <strong>Hipercor</strong> hasta diciembre de 2023 y el lugar donde trabajé los dos últimos años como parte del equipo back end. Mi periodo en la empresa llegó a su fin en octubre de 2023 con la decisión de El Corte Inglés de cerrar la app para continuar únicamente con la sección de supermercado integrada en su app principal. </p>
-                        <p>A continuación detallo algunas de las principales tareas que desarrollé en Grability.</p>
+                        <p className='text-right'><a href="https://www.grability.com" target='_blank' rel="noreferrer"><strong>Grability</strong> (grability.com)</a> es la empresa responsable de la app del supermercado de <strong>El Corte Inglés </strong> y el <strong>Hipercor</strong> hasta diciembre de 2023 y el lugar donde trabajé los dos últimos años como parte del equipo back end.</p>
                     </div>
                     <div className="col-md-6">
-                        <img className='img-fluid' src={'/assets/iphone.png'} alt='phones' />
+                        <p className='text-right'>Mi periodo en la empresa llegó a su fin con la decisión de El Corte Inglés de cerrar la app para continuar únicamente con la sección de supermercado integrada en su app principal. </p>
+                        <p>A continuación detallo algunas de las principales tareas que desarrollé en Grability.</p>
                     </div>
                 </div>
 

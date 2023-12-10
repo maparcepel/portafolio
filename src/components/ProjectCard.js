@@ -21,7 +21,9 @@ export const ProjectCard = ({
                     </div>
 
                     <div className="portfolio__description">
-                        <p>{description}</p>
+                        {description.map((paragraph, pIndex) => (
+                            <p key={pIndex}>{paragraph}</p>
+                        ))}
                     </div>
                 </div>
             </div>
