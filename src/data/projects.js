@@ -1,75 +1,34 @@
-const url = '/assets/projects/icon_url.png';
-const github = '/assets/projects/icon_github.png'
-const postman = '/assets/projects/icon_postman.png'
 
 export const projects = [{
-        'title': 'API App Delivery',
-        'description': 'Api desarrollada con PHP, Laravel y Passport para realizar pedidos y recuperarlos con el detalle de productos incluidos. Listar productos filtrados por tipo, categoría o subcategoría o buscarlos a partir de un texto. Obtener el listado de categorías y subcategorías. Historial de pedidos. Además de registro y login de usuarios.',
-        'image': "/assets/projects/delivery.jpg",
-        'links': [{
-                'icon': github,
-                'url': 'https://github.com/maparcepel/API-app-delivery'
-            },
-            {
-                'icon': postman,
-                'url': 'https://documenter.getpostman.com/view/10581396/TzmCiDxs'
-            }
-        ]
-    },
-    {
-        'title': 'Binary Sunset',
-        'description': 'Web desarrollada con React, Bootstrap y Sass para la renovación de la imagen del estudio de grabación Binary Sunset.',
-        'image': "/assets/projects/binary_sunset.jpg",
-        'links': [{
-                'icon': url,
-                'url': 'https://binarysunsetestudio.com'
-            },
-            {
-                'icon': github,
-                'url': 'https://github.com/maparcepel/new-binary-sunset'
-            }
-        ]
-    },
-    {
-        'title': 'Low Blows',
-        'description': 'Web desarrollada con Html, CSS, Bootstrap para el grupo post punk Low Blows.',
-        'image': "/assets/projects/blows.jpg",
-        'links': [{
-                'icon': url,
-                'url': 'http://blows.tk/'
-            },
-            {
-                'icon': github,
-                'url': 'https://github.com/maparcepel/Low_Blows'
-            }
-        ]
-    },
-    {
-        'title': 'API Keymanager',
-        'description': 'Desarrollo de la API REST (PHP, Laravel, JWT) de esta web que facilita la gestión de códigos de seguridad de centrales receptoras de alarmas. La API gestiona la información de usuarios, clientes, ubicaciones y empleados. Más de 30 endpoints para responder a todo tipo de peticiones.',
-        'image': "/assets/projects/keymanager.jpg",
-        'links': [{
-                'icon': url,
-                'url': 'https://keymanager.tk/'
-            },
-            {
-                'icon': github,
-                'url': 'https://github.com/maparcepel/KeyManager-API'
-            },
-            {
-                'icon': postman,
-                'url': 'https://documenter.getpostman.com/view/10581396/TVsxCSKs'
-            }
-        ]
-    },
+    'title': 'Grability',
+    'description': ['En Grability, una de mis principales funciones consistía en proporcionar soporte a El Corte Inglés durante las mañanas, resolviendo dudas e incidencias, dado que Grability estaba ubicada en Colombia y el resto del equipo se unía al mediodía de España. Esta dinámica me permitió profundizar en los diversos proyectos que conformaban el servicio de Grability.', 'Paralelamente trabajaba en diferentes tareas, como el desarrollo de nuevas funcionalidades o actualización de módulos.'],
+    'image': "/assets/grability/iphone.png"
+},
+{
+    'title': 'Equipo Back End',
+    'description': ['Una de nuestras labores fundamentales consistía en el mantenimiento y la mejora del CMS utilizado por El Corte Inglés para administrar la aplicación. Con un back end desarrollado en Laravel y un front end (del cual también estábamos a cargo) inicialmente construido en Ember.JS, estábamos llevando a cabo una migración gradual del front end a React.JS, incorporando un diseño más moderno y una arquitectura modular.', 'Tanto en entornos locales como en los servidores, el CMS estaba implementado en contenedores Docker. '],
+    'image': "/assets/grability/cover.png"
+},
+{
+    'title': 'Plantillas de Banners',
+    'description': ['Considero como uno de mis logros destacados en la empresa el desarrollo de nuevos módulos para el CMS. En particular uno de los primeros y que fue muy bien recibido en El Corte Inglés, denominado "Plantillas de Banners". Los colaboradores de El Corte Inglés, responsables de crear banners periódicamente para nuevos productos y ofertas, necesitaban la capacidad de guardar banners para su posterior edición y reutilización.', 'Propusimos la creación de este módulo que permitía que los banners seleccionados fueran almacenados en la base de datos para su recuperación en el módulo "Plantillas de Banners". Luego los banners podían ser ordenados y filtrados para facilitar la búsqueda del banner más apropiado para su reutilización.'],
+    'image': "/assets/grability/templates.png"
+},
+{
+    'title': 'Cambio de Catálogo',
+    'description': ['Siendo el único desarrollador de la empresa en España, una de mis responsabilidades era llevar a cabo el cambio del catálogo que se realizaba cada dos semanas, a primera hora de España, en colaboración con los empleados de El Corte Inglés. A pesar de que muchos procesos estaban automatizados, la actualización del catálogo implicaba lanzar manualmente ciertos procesos para monitorizarlos y garantizar el éxito del procedimiento.'],
+    'image': "/assets/grability/ipad.png"
+},
 
-    {
-        'title': 'Sinergia',
-        'description': 'Web desarrollada con Wordpress y Divi para esta asociación de empresas del sector tecnológico de Cataluña.',
-        'image': "/assets/projects/sinergia.jpg",
-        'links': [{
-            'icon': url,
-            'url': 'https://sinergia.business/'
-        }]
-    }
+{
+    'title': 'Base de Datos',
+    'description': ['A menudo, El Corte Inglés solicitaba informes que requerían consultas a la base de datos para obtener detalles sobre productos, ofertas, precios, ubicación en pasillos, etc. Frente a solicitudes recurrentes, desarrollé funcionalidades para integrar estos informes en el CMS, proporcionando un acceso rápido y sencillo a dicha información.'],
+    'image': "/assets/grability/bd.png"
+},
+
+{
+    'title': 'Discrepancias',
+    'description': ['Un proceso de El Corte Inglés comparaba diariamente los precios y ofertas de los productos en nuestra aplicación con respecto a la web (esta última gestionada por El Corte Inglés). Cuando se detectaban diferencias entre la app y la web, recibíamos una incidencia que exigía una solución inmediata, ya que indicaba la presencia de información incorrecta en uno de los dos canales.', 'Para llevar a cabo esta tarea, debía examinar minuciosamente diversas etapas del proceso con el objetivo de identificar la razón detrás de la discrepancia. Especialmente un proceso de Grability llamado Integración, donde a diario se recibían datos de miles de productos a través de Azure. Este proceso importaba la información, la almacenaba en la base de datos y la exportaba a la app. Mi labor era encontrar la razón de la discrepancia para asegurar la coherencia y precisión entre la app de Grability y la web de El Corte Inglés.'],
+    'image': "/assets/grability/ipad2.png"
+}
 ];
