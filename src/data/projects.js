@@ -16,13 +16,13 @@ export const projects = [{
 },
 {
     'title': 'Cambio de Catálogo',
-    'description': ['Siendo el único desarrollador de la empresa en España, una de mis responsabilidades era llevar a cabo el cambio del catálogo que se realizaba cada dos semanas, a primera hora de España, en colaboración con los empleados de El Corte Inglés. A pesar de que muchos procesos estaban automatizados, la actualización del catálogo implicaba lanzar manualmente ciertos procesos para monitorizarlos y garantizar el éxito del procedimiento.'],
+    'description': ['Siendo el único desarrollador de Grability en España, una de mis responsabilidades era llevar a cabo el cambio del catálogo que se realizaba cada dos semanas, a primera hora de España, en colaboración con los empleados de El Corte Inglés. A pesar de que muchos procesos estaban automatizados, la actualización del catálogo implicaba lanzar manualmente ciertos procesos para monitorizarlos y garantizar el éxito del procedimiento.'],
     'image': "/assets/grability/ipad.png"
 },
 
 {
     'title': 'Base de Datos',
-    'description': ['A menudo, El Corte Inglés solicitaba informes que requerían consultas a la base de datos para obtener detalles sobre productos, ofertas, precios, ubicación en pasillos, etc. Frente a solicitudes recurrentes, desarrollé funcionalidades para integrar estos informes en el CMS, proporcionando un acceso rápido y sencillo a dicha información.'],
+    'description': ['A menudo, El Corte Inglés solicitaba informes que requerían consultas a la base de datos para obtener detalles sobre productos, ofertas, precios, ubicación en pasillos, etc. Frente a solicitudes recurrentes, desarrollé funcionalidades para integrar estos informes en el CMS, proporcionando a los colaboradores de El Corte Inglés un acceso rápido y sencillo a dicha información.'],
     'image': "/assets/grability/bd.png"
 },
 

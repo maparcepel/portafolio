@@ -25,10 +25,13 @@ export const Timeline = () => {
             </div>
 
             <div className='col-6 sobre-mi-left'>
-                <h4>Curso React: De cero a experto ( Hooks y MERN )</h4>
-                <p>
-                    <a href="https://www.udemy.com/course/react-cero-experto/" target='blank'>Udemy - Fernando Herrera</a> <br />Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, SASS, Multiple Routers...
-                </p>
+                <h4>Diversos cursos online en Udemy</h4>
+                <a href="https://www.udemy.com/course/react-cero-experto/" target='blank'>React: De cero a experto ( Hooks y MERN )<br />Fernando Herrera</a><br />
+                <a href="https://www.udemy.com/course/react-guia-definitiva-hooks-router-redux-next-proyectos/" target='blank'>React - Guía definitiva: hooks router redux next +Proyectos<br />Nicolás Schurmann</a><br />
+                <a href="https://www.udemy.com/course/master-en-apis-restful-con-nodejs-crea-3-backends-completos/" target='blank'>Master en APIs RESTful con NodeJS: Crea 3 backends completos<br />Víctor Robles</a><br />
+                <a href="https://www.udemy.com/course/node-de-cero-a-experto/" target='blank'>Node: De cero a experto<br />Fernando Herrera</a><br />
+                <a href="https://www.udemy.com/course/master-en-desarrollo-web-full-stack-angular-node-laravel-symfony/" target='blank'>Master en webs Full Stack: Angular, Node, Laravel, Symfony<br />Víctor Robles</a><br />
+                <a href="https://www.udemy.com/course/realtime-y-laravel-crea-multiples-aplicaciones-tiempo-real-con-laravel/" target='blank'>Tiempo real y Laravel: Múltiples apps realtime con Laravel<br />JuanD MeGon</a>
             </div>
 
             <div className='col-6 year-l'>

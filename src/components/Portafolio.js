@@ -25,6 +25,7 @@ export const Portafolio = () => {
                         <h1 className='mt-4'>Desarrollador Web FullStack</h1>
                         <h3 className='mt-4'>PHP | Laravel | SQL</h3>
                         <h3 className='mt-1'>JavaScript | React | HTML | CSS</h3>
+                        <h3 className='mt-1'>Node.js | Express | MongoDB</h3>
                     </div>
 
                     <div className="col-sm-1 col-md-2 col-lg-3">

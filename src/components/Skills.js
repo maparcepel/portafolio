@@ -15,6 +15,7 @@ export const Skills = () => {
                         <h4>Lenguajes</h4>
                         <ul>
                             <li>PHP</li>
+                            <li>SQL</li>
                             <li>JavaScript</li>
                             <li>CSS</li>
                             <li>Html</li>
@@ -54,7 +55,6 @@ export const Skills = () => {
                         <ul>
                             <li>Git</li>
                             <li>Scrum</li>
-                            <li>Postman</li>
                             <li>Docker</li>
                             <li>Photoshop</li>
                         </ul>
