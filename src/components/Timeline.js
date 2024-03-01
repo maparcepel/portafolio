@@ -19,7 +19,9 @@ export const Timeline = () => {
             <div className='col-6 sobre-mi-right'>
                 <h4>Desarrollador Full Stack en <a href="https://es.linkedin.com/company/grability-inc-" target='blank'><strong>Grability</strong></a> </h4>
                 <p>
-                    Trabajando para <strong>El Corte Inglés Supermercado y el Hipercor</strong> en el equipo Back end con PHP, Laravel, Postgres, corrigiendo errores, desarrollando nuevas funcionalidades, aunque también haciendo tareas de Front con React, Javascript, CSS, Bootstrap, HTML, actualizando y creando nuevas vistas en el CMS que alimenta la app.
+                    Trabajando para el supermercado de <strong>El Corte Inglés</strong> y el <strong>Hipercor</strong>, como full stack del CMS y backend de la app.<br />
+                    Creando nuevas funcionalidades, mejorando las existentes y resolviendo incidencias, con <strong>PHP, Laravel y PostgreSQL</strong>.<br />
+                    Con <strong>ReactJS</strong>, migrando el antiguo front del CMS y creando nuevos módulos .
                 </p>
 
             </div>
@@ -103,69 +105,6 @@ export const Timeline = () => {
                     2019
                 </div>
 
-            </div>
-
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    2014
-                </div>
-            </div>
-
-            <div className='col-6 sobre-mi-right'>
-                <h4 className='grey'>Técnico de sonido en estudio  <a href="http://binarysunsetestudio.com/#/" target='blank'><span className='grey'>Binary Sunset</span></a> </h4>
-            </div>
-
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    2005
-                </div>
-            </div>
-
-            <div className='col-6 sobre-mi-right'>
-                <h4 className='grey'>Teleoperador Movistar</h4>
-            </div>
-
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    2003
-                </div>
-            </div>
-
-            <div className='col-6 sobre-mi-right'>
-                <h4 className='grey'>Comercial Auna</h4>
-            </div>
-
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    1998
-                </div>
-            </div>
-
-            <div className='col-6 sobre-mi-right'>
-                <h4>Diseñador web en <a href="https://procorpweb.com/" target='blank'>Porcorp</a> (Chile)</h4>
-            </div>
-
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    1996
-                </div>
-            </div>
-
-            <div className='col-6 sobre-mi-right'>
-                <h4>Diseñador web en Innova (Chile)</h4>
-            </div>
-
-            <div className='col-6 sobre-mi-left'>
-                <h4>Publicidad  </h4>
-                <p>
-                    <a href="https://www.duoc.cl/" target='blank'>Duoc UC</a> (Chile)
-                </p>
-            </div>
-
-            <div className='col-6 year-l'>
-                <div className='year-left'>
-                    1990
-                </div>
             </div>
         </div>
     )

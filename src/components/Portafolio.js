@@ -24,8 +24,8 @@ export const Portafolio = () => {
                         <img className='img-fluid' src={'/assets/logo.png'} alt="Marcel Molina" />
                         <h1 className='mt-4'>Desarrollador Web FullStack</h1>
                         <h3 className='mt-4'>PHP | Laravel | SQL</h3>
-                        <h3 className='mt-1'>JavaScript | React | HTML | CSS</h3>
-                        <h3 className='mt-1'>Node.js | Express | MongoDB</h3>
+                        <h3 className='mt-1'>JavaScript | ReactJS | HTML | CSS</h3>
+                        <h3 className='mt-1'>Node | Express | MongoDB</h3>
                     </div>
 
                     <div className="col-sm-1 col-md-2 col-lg-3">
@@ -38,7 +38,7 @@ export const Portafolio = () => {
             <div className='container projects animate__animated animate__fadeIn mb-5'>
                 <div className="row mt-5 mb-5" id='intro'>
                     <div className="col-md-6">
-                        <p className='text-right'><a href="https://www.grability.com" target='_blank' rel="noreferrer"><strong>Grability</strong> (grability.com)</a> es la empresa responsable de la app del supermercado de <strong>El Corte Inglés </strong> y el <strong>Hipercor</strong> hasta diciembre de 2023 y el lugar donde trabajé los dos últimos años como parte del equipo back end, a jornada completa y de manera remota.</p>
+                        <p className='text-right'><a href="https://www.grability.com" target='_blank' rel="noreferrer"><strong>Grability</strong> (grability.com)</a> fue la empresa responsable de la app del supermercado de <strong>El Corte Inglés </strong> y el <strong>Hipercor</strong> hasta diciembre de 2023 y el lugar donde trabajé los dos últimos años como <strong>desarrollador web full stack</strong>, a jornada completa y de manera remota.</p>
                     </div>
                     <div className="col-md-6">
                         <p className='text-right'>Mi periodo en la empresa llegó a su fin con la decisión de El Corte Inglés de cerrar la app para continuar únicamente con la sección de supermercado integrada en su app principal. </p>

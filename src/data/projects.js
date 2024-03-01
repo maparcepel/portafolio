@@ -1,17 +1,17 @@
 
 export const projects = [{
     'title': 'Grability',
-    'description': ['En Grability, una de mis principales funciones consistía en proporcionar soporte a El Corte Inglés durante las mañanas, resolviendo dudas e incidencias, dado que Grability estaba ubicada en Colombia y el resto del equipo se unía al mediodía de España. Esta dinámica me permitió profundizar en los diversos proyectos que conformaban el servicio de Grability.', 'Paralelamente trabajaba en diferentes tareas, como el desarrollo de nuevas funcionalidades o actualización de módulos.'],
+    'description': ['Paralelamente a las tareas de desarrollo, una de mis principales funciones consistía en proporcionar soporte a El Corte Inglés durante las mañanas, dado que Grability estaba ubicada en Colombia y el resto del equipo se unía al mediodía de España. Esta dinámica me permitió profundizar en los diversos proyectos que conformaban el servicio de Grability.'],
     'image': "/assets/grability/iphone.png"
 },
 {
-    'title': 'Equipo Back End',
-    'description': ['Una de nuestras labores fundamentales consistía en el mantenimiento y la mejora del CMS utilizado por El Corte Inglés para administrar la aplicación. Con un back end desarrollado en Laravel y un front end (del cual también estábamos a cargo) inicialmente construido en Ember.JS, estábamos llevando a cabo una migración gradual del front end a React.JS, incorporando un diseño más moderno y una arquitectura modular.', 'Tanto en entornos locales como en los servidores, el CMS estaba implementado en contenedores Docker. '],
+    'title': 'Equipo Backend',
+    'description': ['Una de nuestras labores fundamentales consistía en el mantenimiento y la mejora del CMS utilizado por El Corte Inglés para administrar la app. Con un backend desarrollado en Laravel y un frontend (del cual también estábamos a cargo) inicialmente construido en Ember.JS, estábamos llevando a cabo una migración gradual del front end a React.JS, incorporando un diseño más moderno y una arquitectura modular.', 'Tanto en entornos locales como en los servidores, el CMS estaba implementado en contenedores Docker. '],
     'image': "/assets/grability/cover.png"
 },
 {
     'title': 'Plantillas de Banners',
-    'description': ['Considero como uno de mis logros destacados en la empresa el desarrollo de nuevos módulos para el CMS. En particular uno de los primeros y que fue muy bien recibido en El Corte Inglés, denominado "Plantillas de Banners". Los colaboradores de El Corte Inglés, responsables de crear banners periódicamente para nuevos productos y ofertas, necesitaban la capacidad de guardar banners para su posterior edición y reutilización.', 'Propusimos la creación de este módulo que permitía que los banners seleccionados fueran almacenados en la base de datos para su recuperación en el módulo "Plantillas de Banners". Luego los banners podían ser ordenados y filtrados para facilitar la búsqueda del banner más apropiado para su reutilización.'],
+    'description': ['Considero como uno de mis logros destacados en la empresa el desarrollo de nuevos módulos para el CMS. Uno de los primeros y que fue muy bien recibido en El Corte Inglés fue "Plantillas de Banners". Los colaboradores de El Corte Inglés, responsables de crear banners periódicamente para nuevos productos y ofertas, necesitaban la capacidad de guardar banners para su posterior edición y reutilización.', 'Propusimos la creación de este módulo que permitía que los banners seleccionados fueran almacenados en la base de datos para su recuperación en el módulo "Plantillas de Banners", pudiendo ser ordenados, filtrados y editados para su reutilización.'],
     'image': "/assets/grability/templates.png"
 },
 {

@@ -8,7 +8,7 @@ export const MasSobreMi = () => {
             <div className='row'>
                 <div className='col d-flex justify-content-center '>
                     <p>
-                        Toda la vida me he dedicado a actividades que combinan la tecnología con la creatividad: desde siempre como músico fanático de los sintetizadores y la tecnología musical, hace tiempo como diseñador web y luego como técnico de sonido. La programación es algo que siempre estuvo latente y hace unos años decidí dar el paso.
+                        Toda la vida me he dedicado a actividades que combinan la tecnología con la creatividad: desde siempre como músico fanático de los sintetizadores y la tecnología musical y luego como técnico de sonido. La programación es algo que siempre estuvo latente y hace unos años decidí dar el paso.
                     </p>
                 </div>
             </div>
