@@ -28,10 +28,11 @@ export const Skills = () => {
                 <div className='col-xs-12 col-sm-6 col-lg-3 d-flex justify-content-lg-center'>
                     <div className='skills'>
 
-                        <h4>Frameworks y CMS</h4>
+                        <h4>Frameworks y librerías</h4>
                         <ul>
                             <li>Laravel</li>
-                            <li>React</li>
+                            <li>ReactJS</li>
+                            <li>Redux</li>
                             <li>Express</li>
                             <li>Bootstrap</li>
                             <li>Wordpress</li>
@@ -53,9 +54,11 @@ export const Skills = () => {
                     <div className='skills'>
                         <h4>Otros</h4>
                         <ul>
+                            <li>SOLID</li>
+                            <li>Clean Code</li>
                             <li>Git</li>
                             <li>Scrum</li>
-                            <li>Docker</li>
+                            <li>Jira</li>
                             <li>Photoshop</li>
                         </ul>
                     </div>

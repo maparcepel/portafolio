@@ -6,12 +6,12 @@ export const projects = [{
 },
 {
     'title': 'Equipo Backend',
-    'description': ['Una de nuestras labores fundamentales consistía en el mantenimiento y la mejora del CMS utilizado por El Corte Inglés para administrar la app. Con un backend desarrollado en Laravel y un frontend (del cual también estábamos a cargo) inicialmente construido en Ember.JS, estábamos llevando a cabo una migración gradual del front end a React.JS, incorporando un diseño más moderno y una arquitectura modular.', 'Tanto en entornos locales como en los servidores, el CMS estaba implementado en contenedores Docker. '],
+    'description': ['Una de nuestras labores fundamentales consistía en el mantenimiento y la mejora del CMS utilizado por El Corte Inglés para administrar la app. Con un backend desarrollado en Laravel y un frontend (del cual también estábamos a cargo) inicialmente construido en Ember.JS, estábamos llevando a cabo una migración gradual del front end a ReactJS, incorporando un diseño más moderno y una arquitectura modular.', 'Tanto en entornos locales como en los servidores, el CMS estaba implementado en contenedores Docker. '],
     'image': "/assets/grability/cover.png"
 },
 {
-    'title': 'Plantillas de Banners',
-    'description': ['Considero como uno de mis logros destacados en la empresa el desarrollo de nuevos módulos para el CMS. Uno de los primeros y que fue muy bien recibido en El Corte Inglés fue "Plantillas de Banners". Los colaboradores de El Corte Inglés, responsables de crear banners periódicamente para nuevos productos y ofertas, necesitaban la capacidad de guardar banners para su posterior edición y reutilización.', 'Propusimos la creación de este módulo que permitía que los banners seleccionados fueran almacenados en la base de datos para su recuperación en el módulo "Plantillas de Banners", pudiendo ser ordenados, filtrados y editados para su reutilización.'],
+    'title': 'Nuevos módulos',
+    'description': ['Considero como uno de mis logros destacados en la empresa la creación y mejora de varios módulos del CMS que ofrecían soluciones para optimizar los procesos de creación y gestión de contenido. Estas mejoras hicieron más ágil y eficaz la administración del contenido en general, permitiendo mejorar el flujo de trabajo a los colaboradores de El Corte Inglés.'],
     'image': "/assets/grability/templates.png"
 },
 {

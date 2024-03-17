@@ -22,9 +22,9 @@ export const Portafolio = () => {
 
                     <div className="col-sm-8 col-md-6 col-lg-5 text-center portfolio__description">
                         <img className='img-fluid' src={'/assets/logo.png'} alt="Marcel Molina" />
-                        <h1 className='mt-4'>Desarrollador Web FullStack</h1>
+                        <h1 className='mt-4'>Desarrollador Web Full Stack</h1>
                         <h3 className='mt-4'>PHP | Laravel | SQL</h3>
-                        <h3 className='mt-1'>JavaScript | ReactJS | HTML | CSS</h3>
+                        <h3 className='mt-1'>JavaScript | ReactJS | Redux | HTML | CSS</h3>
                         <h3 className='mt-1'>Node | Express | MongoDB</h3>
                     </div>
 
