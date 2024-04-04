@@ -20,12 +20,12 @@ export const Portafolio = () => {
 
                     </div>
 
-                    <div className="col-sm-8 col-md-6 col-lg-5 text-center portfolio__description">
+                    <div className="col-sm-8 col-md-6 col-lg-5 text-center">
                         <img className='img-fluid' src={'/assets/logo.png'} alt="Marcel Molina" />
-                        <h1 className='mt-4'>Desarrollador Web Full Stack</h1>
-                        <h3 className='mt-4'>PHP | Laravel | SQL</h3>
-                        <h3 className='mt-1'>JavaScript | ReactJS | Redux | HTML | CSS</h3>
-                        <h3 className='mt-1'>Node | Express | MongoDB</h3>
+                        <h1 className='mt-4 main-title'>Desarrollador Web Full Stack</h1>
+                        <h3 className='mt-4 secondary-title'>PHP | Laravel | SQL</h3>
+                        <h3 className='mt-1 secondary-title'>JavaScript | ReactJS | Redux | HTML | CSS</h3>
+                        <h3 className='mt-1 secondary-title'>Node | Express | MongoDB</h3>
                     </div>
 
                     <div className="col-sm-1 col-md-2 col-lg-3">
@@ -37,16 +37,16 @@ export const Portafolio = () => {
 
             <div className='container projects animate__animated animate__fadeIn mb-5'>
                 <div className="row mt-5 mb-5" id='intro'>
-                    <div className="col-md-6">
+
+                    <div className="col-md-8">
                         <p className='text-right'><a href="https://www.grability.com" target='_blank' rel="noreferrer"><strong>Grability</strong> (grability.com)</a> fue la empresa responsable de la app del supermercado de <strong>El Corte Inglés </strong> y el <strong>Hipercor</strong> hasta diciembre de 2023 y el lugar donde trabajé los dos últimos años como <strong>desarrollador web full stack</strong>, a jornada completa y de manera remota.</p>
+                        <p>Algunas de las principales tareas que desarrollé en Grability:</p>
                     </div>
-                    <div className="col-md-6">
-                        <p className='text-right'>Mi periodo en la empresa llegó a su fin con la decisión de El Corte Inglés de cerrar la app para continuar únicamente con la sección de supermercado integrada en su app principal. </p>
-                        <p>A continuación detallo algunas de las principales tareas que desarrollé en Grability.</p>
+                    <div className="col-md-4">
                     </div>
                 </div>
 
-                <div className="row mt-5">
+                <div className="row mt-3">
 
                     {
                         projects.map((project, i) => (

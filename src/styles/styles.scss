@@ -1,6 +1,7 @@
 $background: #c65e5c;
 $blue: #265e84;
 $grey: rgba(255, 255, 255, 0.487);
+
 .grey {
     color: $grey;
 }
@@ -35,6 +36,20 @@ body {
 
 .main-container {
     height: 100%;
+}
+
+.main-title {
+    font-family: "Big Shoulders Display", sans-serif;
+    /*     font-optical-sizing: auto;
+ */
+    font-weight: 300;
+    font-style: normal;
+}
+
+.secondary-title {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 @import 'navBar';

@@ -19,21 +19,22 @@ export const Timeline = () => {
             <div className='col-6 sobre-mi-right'>
                 <h4>Desarrollador Full Stack en <a href="https://es.linkedin.com/company/grability-inc-" target='blank'><strong>Grability</strong></a> </h4>
                 <p>
-                    Trabajando para el supermercado de <strong>El Corte Inglés</strong> y el <strong>Hipercor</strong>, como full stack del CMS y backend de la app.<br />
+                    Trabajando para el supermercado de <strong>El Corte Inglés</strong> y el <strong>Hipercor</strong> como full stack del CMS y backend de la app.<br />
                     Creando nuevas funcionalidades, mejorando las existentes y resolviendo incidencias, con <strong>PHP, Laravel y PostgreSQL</strong>.<br />
                     Con <strong>ReactJS</strong>, migrando el antiguo front del CMS y creando nuevos módulos .
                 </p>
 
             </div>
 
-            <div className='col-6 sobre-mi-left'>
-                <h4>Diversos cursos online en Udemy</h4>
-                <a href="https://www.udemy.com/course/react-cero-experto/" target='blank'><strong>React</strong>: De cero a experto ( Hooks y MERN )<br />Fernando Herrera</a><br />
-                <a href="https://www.udemy.com/course/react-guia-definitiva-hooks-router-redux-next-proyectos/" target='blank'><strong>React</strong> - Guía definitiva: hooks router redux next +Proyectos<br />Nicolás Schurmann</a><br />
-                <a href="https://www.udemy.com/course/master-en-apis-restful-con-nodejs-crea-3-backends-completos/" target='blank'>Master en APIs RESTful con <strong>NodeJS</strong>: Crea 3 backends completos<br />Víctor Robles</a><br />
-                <a href="https://www.udemy.com/course/node-de-cero-a-experto/" target='blank'><strong>Node</strong>: De cero a experto<br />Fernando Herrera</a><br />
-                <a href="https://www.udemy.com/course/master-en-desarrollo-web-full-stack-angular-node-laravel-symfony/" target='blank'>Master en webs Full Stack: Angular, Node, <strong>Laravel</strong>, Symfony<br />Víctor Robles</a><br />
-                <a href="https://www.udemy.com/course/realtime-y-laravel-crea-multiples-aplicaciones-tiempo-real-con-laravel/" target='blank'>Tiempo real y <strong>Laravel</strong>: Múltiples apps realtime con Laravel<br />JuanD MeGon</a>
+            <div className='col-6 sobre-mi-left' style={{ fontSize: '1rem' }}>
+                <h4>Formación continua online</h4>
+                <a href="https://www.udemy.com/course/solid-clean/" target='blank'>Principios <strong>SOLID</strong> y <strong>Clean Code</strong><br /><span className='grey'>Fernando Herrera</span></a><br />
+                <a href="https://www.udemy.com/course/react-cero-experto/" target='blank'><strong>React</strong>: De cero a experto ( Hooks y MERN )<br /><span className='grey'>Fernando Herrera</span></a><br />
+                <a href="https://www.udemy.com/course/react-guia-definitiva-hooks-router-redux-next-proyectos/" target='blank'><strong>React</strong> - Guía definitiva: hooks router redux next +Proyectos<br /><span className='grey'>Nicolás Schurmann</span></a><br />
+                <a href="https://www.udemy.com/course/master-en-apis-restful-con-nodejs-crea-3-backends-completos/" target='blank'>Master en APIs RESTful con <strong>NodeJS</strong>: Crea 3 backends completos<br /><span className='grey'>Víctor Robles</span></a><br />
+                <a href="https://www.udemy.com/course/node-de-cero-a-experto/" target='blank'><strong>Node</strong>: De cero a experto<br /><span className='grey'>Fernando Herrera</span></a><br />
+                <a href="https://www.udemy.com/course/master-en-desarrollo-web-full-stack-angular-node-laravel-symfony/" target='blank'>Master en webs Full Stack: Angular, Node, <strong>Laravel</strong>, Symfony<br /><span className='grey'>Víctor Robles</span></a><br />
+                <a href="https://www.udemy.com/course/realtime-y-laravel-crea-multiples-aplicaciones-tiempo-real-con-laravel/" target='blank'>Tiempo real y <strong>Laravel</strong>: Múltiples apps realtime con Laravel<br /><span className='grey'>JuanD MeGon</span></a>
             </div>
 
             <div className='col-6 year-l'>
@@ -106,6 +107,19 @@ export const Timeline = () => {
                 </div>
 
             </div>
+
+            <div className='col-6 year-r'>
+                <div className='year-right'>
+                    2011
+                </div>
+            </div>
+
+            <div className='col-6 sobre-mi-right'>
+                <h4>Técnico de sonido en Binary Sunset </h4>
+                <p>Estudio de grabación</p>
+            </div>
+
+
         </div>
     )
 }

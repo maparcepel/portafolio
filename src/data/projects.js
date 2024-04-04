@@ -1,7 +1,7 @@
 
 export const projects = [{
-    'title': 'Grability',
-    'description': ['Paralelamente a las tareas de desarrollo, una de mis principales funciones consistía en proporcionar soporte a El Corte Inglés durante las mañanas, dado que Grability estaba ubicada en Colombia y el resto del equipo se unía al mediodía de España. Esta dinámica me permitió profundizar en los diversos proyectos que conformaban el servicio de Grability.'],
+    'title': 'Interacción con el cliente',
+    'description': ['Paralelamente a las tareas de desarrollo, durante las mañanas mantenía un contacto directo con el cliente para atender cualquier incidencia, dado que Grability estaba ubicada en Colombia y el resto del equipo se unía al mediodía de España. Esta dinámica me permitió profundizar en los diversos proyectos que conformaban el servicio de Grability.'],
     'image': "/assets/grability/iphone.png"
 },
 {
@@ -28,7 +28,7 @@ export const projects = [{
 
 {
     'title': 'Discrepancias',
-    'description': ['Un proceso de El Corte Inglés comparaba diariamente los precios y ofertas de los productos en nuestra aplicación con respecto a la web (esta última gestionada por El Corte Inglés). Cuando se detectaban diferencias entre la app y la web, recibíamos una incidencia que exigía una solución inmediata, ya que indicaba la presencia de información incorrecta en uno de los dos canales.', 'Para llevar a cabo esta tarea, debía examinar minuciosamente diversas etapas del proceso con el objetivo de identificar la razón detrás de la discrepancia. Especialmente un proceso de Grability llamado Integración, donde a diario se recibían datos de miles de productos a través de Azure. Este proceso importaba la información, la almacenaba en la base de datos y la exportaba a la app. Mi labor era encontrar la razón de la discrepancia para asegurar la coherencia y precisión entre la app de Grability y la web de El Corte Inglés.'],
+    'description': ['Un proceso de El Corte Inglés comparaba diariamente los precios y ofertas de los productos en nuestra aplicación con respecto a la web y nos enviaba una incidencia en caso de discrepancias.', 'Yo era el encargado de examinar minuciosamente diversas etapas del proceso de importación desde El Corte Inglés con el objetivo de identificar la razón detrás de la discrepancia para asegurar la coherencia entre la app de Grability y la web de El Corte Inglés.'],
     'image': "/assets/grability/ipad2.png"
 }
 ];
