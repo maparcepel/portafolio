@@ -3,7 +3,7 @@ import React from 'react'
 export const MasSobreMi = () => {
     return (
 
-        <div id='masSobreMi' className='container mt-5 animate__animated animate__fadeIn'>
+        <div id='masSobreMi' className='container mt-5 pt-3 animate__animated animate__fadeIn'>
 
             <div className='row'>
                 <div className='col d-flex justify-content-center '>

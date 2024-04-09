@@ -16,7 +16,7 @@ import { Contacto } from './Contacto';
 const AppRouter = () => {
     return (
         <Router>
-            <div className='d-flex flex-column justify-content-between main-container'>
+            <div className='d-flex flex-column justify-content-between main-container mt-2'>
 
                 <div>
                     <NavBar />

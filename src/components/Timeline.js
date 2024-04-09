@@ -4,11 +4,11 @@ export const Timeline = () => {
     return (
         <div className='row mt-5 animate__animated animate__fadeIn' id='timeline'>
             <div className='col-6 text-center pe-0 mb-4'>
-                <h4 className='timeline-title'>FORMACIÓN</h4>
+                <h4 className='timeline-title'>Formación</h4>
                 <i className="fas fa-caret-down me-1"></i>
             </div>
             <div className='col-6 text-center ps-0 mb-4'>
-                <h4 className='timeline-title'>EXPERIENCIA</h4>
+                <h4 className='timeline-title'>Experiencia</h4>
                 <i className="fas fa-caret-down me-1"></i>
             </div>
 

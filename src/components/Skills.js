@@ -5,7 +5,7 @@ export const Skills = () => {
         <div className='animate__animated animate__fadeIn'>
             <div className='row mt-5 justify-content-center'>
                 <div className='col text-center'>
-                    <h4 className='conocimientos'>CONOCIMIENTOS</h4>
+                    <h4 className='conocimientos'>Habilidades</h4>
                 </div>
             </div>
 
