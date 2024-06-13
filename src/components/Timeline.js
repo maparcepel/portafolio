@@ -4,11 +4,11 @@ export const Timeline = () => {
     return (
         <div className='row mt-5 animate__animated animate__fadeIn' id='timeline'>
             <div className='col-6 text-center pe-0 mb-4'>
-                <h4 className='timeline-title'>FORMACIÓN</h4>
+                <h4 className='timeline-title'>Formación</h4>
                 <i className="fas fa-caret-down me-1"></i>
             </div>
             <div className='col-6 text-center ps-0 mb-4'>
-                <h4 className='timeline-title'>EXPERIENCIA</h4>
+                <h4 className='timeline-title'>Experiencia</h4>
                 <i className="fas fa-caret-down me-1"></i>
             </div>
 
@@ -19,16 +19,22 @@ export const Timeline = () => {
             <div className='col-6 sobre-mi-right'>
                 <h4>Desarrollador Full Stack en <a href="https://es.linkedin.com/company/grability-inc-" target='blank'><strong>Grability</strong></a> </h4>
                 <p>
-                    Trabajando para <strong>El Corte Inglés Supermercado y el Hipercor</strong> en el equipo Back end con PHP, Laravel, Postgres, corrigiendo errores, desarrollando nuevas funcionalidades, aunque también haciendo tareas de Front con React, Javascript, CSS, Bootstrap, HTML, actualizando y creando nuevas vistas en el CMS que alimenta la app.
+                    Trabajando para el supermercado de <strong>El Corte Inglés</strong> y el <strong>Hipercor</strong> como full stack del CMS y backend de la app.<br />
+                    Creando nuevas funcionalidades, mejorando las existentes y resolviendo incidencias, con <strong>PHP, Laravel y PostgreSQL</strong>.<br />
+                    Con <strong>ReactJS</strong>, migrando el antiguo front del CMS y creando nuevos módulos .
                 </p>
 
             </div>
 
-            <div className='col-6 sobre-mi-left'>
-                <h4>Curso React: De cero a experto ( Hooks y MERN )</h4>
-                <p>
-                    <a href="https://www.udemy.com/course/react-cero-experto/" target='blank'>Udemy - Fernando Herrera</a> <br />Context API, MERN, Hooks, Firestore, JWT, Testing, Autenticaciones, Despliegues, CRUD, Logs, SASS, Multiple Routers...
-                </p>
+            <div className='col-6 sobre-mi-left' style={{ fontSize: '1rem' }}>
+                <h4>Formación continua online</h4>
+                <a href="https://www.udemy.com/course/solid-clean/" target='blank'>Principios <strong>SOLID</strong> y <strong>Clean Code</strong><br /><span className='grey'>Fernando Herrera</span></a><br />
+                <a href="https://www.udemy.com/course/react-cero-experto/" target='blank'><strong>React</strong>: De cero a experto ( Hooks y MERN )<br /><span className='grey'>Fernando Herrera</span></a><br />
+                <a href="https://www.udemy.com/course/react-guia-definitiva-hooks-router-redux-next-proyectos/" target='blank'><strong>React</strong> - Guía definitiva: hooks router redux next +Proyectos<br /><span className='grey'>Nicolás Schurmann</span></a><br />
+                <a href="https://www.udemy.com/course/master-en-apis-restful-con-nodejs-crea-3-backends-completos/" target='blank'>Master en APIs RESTful con <strong>NodeJS</strong>: Crea 3 backends completos<br /><span className='grey'>Víctor Robles</span></a><br />
+                <a href="https://www.udemy.com/course/node-de-cero-a-experto/" target='blank'><strong>Node</strong>: De cero a experto<br /><span className='grey'>Fernando Herrera</span></a><br />
+                <a href="https://www.udemy.com/course/master-en-desarrollo-web-full-stack-angular-node-laravel-symfony/" target='blank'>Master en webs Full Stack: Angular, Node, <strong>Laravel</strong>, Symfony<br /><span className='grey'>Víctor Robles</span></a><br />
+                <a href="https://www.udemy.com/course/realtime-y-laravel-crea-multiples-aplicaciones-tiempo-real-con-laravel/" target='blank'>Tiempo real y <strong>Laravel</strong>: Múltiples apps realtime con Laravel<br /><span className='grey'>JuanD MeGon</span></a>
             </div>
 
             <div className='col-6 year-l'>
@@ -65,7 +71,7 @@ export const Timeline = () => {
             </div>
 
             <div className='col-6 sobre-mi-left'>
-                <h4>Grado superior en Desarrollo de Aplicaciones Web</h4>
+                <h4><strong>Grado superior en Desarrollo de Aplicaciones Web</strong></h4>
                 <p>
                     <a href="https://ioc.xtec.cat/educacio/cfgs-daw" target='blank'>Institut Obert de Catalunya (IOC)</a>.
                 </p>
@@ -104,66 +110,16 @@ export const Timeline = () => {
 
             <div className='col-6 year-r'>
                 <div className='year-right'>
-                    2014
+                    2011
                 </div>
             </div>
 
             <div className='col-6 sobre-mi-right'>
-                <h4 className='grey'>Técnico de sonido en estudio  <a href="http://binarysunsetestudio.com/#/" target='blank'><span className='grey'>Binary Sunset</span></a> </h4>
+                <h4>Técnico de sonido en Binary Sunset </h4>
+                <p>Estudio de grabación</p>
             </div>
 
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    2005
-                </div>
-            </div>
 
-            <div className='col-6 sobre-mi-right'>
-                <h4 className='grey'>Teleoperador Movistar</h4>
-            </div>
-
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    2003
-                </div>
-            </div>
-
-            <div className='col-6 sobre-mi-right'>
-                <h4 className='grey'>Comercial Auna</h4>
-            </div>
-
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    1998
-                </div>
-            </div>
-
-            <div className='col-6 sobre-mi-right'>
-                <h4>Diseñador web en <a href="https://procorpweb.com/" target='blank'>Porcorp</a> (Chile)</h4>
-            </div>
-
-            <div className='col-6 year-r'>
-                <div className='year-right'>
-                    1996
-                </div>
-            </div>
-
-            <div className='col-6 sobre-mi-right'>
-                <h4>Diseñador web en Innova (Chile)</h4>
-            </div>
-
-            <div className='col-6 sobre-mi-left'>
-                <h4>Publicidad  </h4>
-                <p>
-                    <a href="https://www.duoc.cl/" target='blank'>Duoc UC</a> (Chile)
-                </p>
-            </div>
-
-            <div className='col-6 year-l'>
-                <div className='year-left'>
-                    1990
-                </div>
-            </div>
         </div>
     )
 }

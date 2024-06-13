@@ -21,8 +21,8 @@ export const ProjectCard = ({
                     </div>
 
                     <div className="portfolio__description">
-                        {description.map((paragraph, pIndex) => (
-                            <p key={pIndex}>{paragraph}</p>
+                        {description.map((paragraph, i) => (
+                            <p key={i}>{paragraph}</p>
                         ))}
                     </div>
                 </div>

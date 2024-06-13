@@ -5,7 +5,7 @@ export const Skills = () => {
         <div className='animate__animated animate__fadeIn'>
             <div className='row mt-5 justify-content-center'>
                 <div className='col text-center'>
-                    <h4 className='conocimientos'>CONOCIMIENTOS</h4>
+                    <h4 className='conocimientos'>Habilidades</h4>
                 </div>
             </div>
 
@@ -15,6 +15,7 @@ export const Skills = () => {
                         <h4>Lenguajes</h4>
                         <ul>
                             <li>PHP</li>
+                            <li>SQL</li>
                             <li>JavaScript</li>
                             <li>CSS</li>
                             <li>Html</li>
@@ -27,10 +28,11 @@ export const Skills = () => {
                 <div className='col-xs-12 col-sm-6 col-lg-3 d-flex justify-content-lg-center'>
                     <div className='skills'>
 
-                        <h4>Frameworks y CMS</h4>
+                        <h4>Frameworks y librerías</h4>
                         <ul>
                             <li>Laravel</li>
-                            <li>React</li>
+                            <li>ReactJS</li>
+                            <li>Redux</li>
                             <li>Express</li>
                             <li>Bootstrap</li>
                             <li>Wordpress</li>
@@ -52,10 +54,11 @@ export const Skills = () => {
                     <div className='skills'>
                         <h4>Otros</h4>
                         <ul>
+                            <li>SOLID</li>
+                            <li>Clean Code</li>
                             <li>Git</li>
                             <li>Scrum</li>
-                            <li>Postman</li>
-                            <li>Docker</li>
+                            <li>Jira</li>
                             <li>Photoshop</li>
                         </ul>
                     </div>

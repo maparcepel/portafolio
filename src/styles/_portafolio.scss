@@ -1,3 +1,13 @@
+.main-title {
+    font-size: 3.8em !important;
+}
+
+@media (max-width: 1400px) {
+    .main-title {
+        font-size: 3.2em !important;
+    }
+}
+
 @media (max-width: 1200px) {
     .portfolio__face {
         width: 150%;
@@ -13,6 +23,11 @@
             font-size: 1em;
         }
     }
+
+    .main-title {
+        font-size: 2.6em !important;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -29,6 +44,10 @@
         h3 {
             font-size: 1em;
         }
+    }
+
+    .main-title {
+        font-size: 2.3em !important;
     }
 }
 
@@ -50,6 +69,10 @@
             font-size: 1em;
         }
     }
+
+    .main-title {
+        font-size: 2em !important;
+    }
 }
 
 .projects {
@@ -57,7 +80,7 @@
 }
 
 #intro {
-    margin-bottom: 100px !important;
+    margin-bottom: 50px !important;
 }
 
 .portfolio__card {
@@ -71,10 +94,11 @@
 }
 
 .portfolioCard__title {
+    font-family: "Big Shoulders Display", sans-serif;
     border-radius: 13px 13px 0 0;
-    padding: 1.6rem 1rem 0 1rem;
-    font-weight: 500;
-    font-size: 1.7rem;
+    padding: 0rem 1rem 0 1rem;
+    font-weight: 300;
+    font-size: 4rem;
 
     p {
         margin-bottom: 3px;
@@ -88,7 +112,7 @@
 }
 
 .portfolio__description {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
 }
 
 #portafolio {
