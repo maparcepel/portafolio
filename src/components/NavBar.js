@@ -19,6 +19,15 @@ export const NavBar = () => {
                                 exact
                                 to="/"
                             >
+                                Proyectos
+                            </NavLink>
+
+                            <NavLink
+                                activeClassName="active"
+                                className="nav-item nav-link"
+                                exact
+                                to="/Grability"
+                            >
                                 Grability
                             </NavLink>
 
