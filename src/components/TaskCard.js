@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ProjectCard = ({
+export const TaskCard = ({
     title,
     description,
     image,
