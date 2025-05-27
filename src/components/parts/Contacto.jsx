@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const Contacto = () => {
 
@@ -7,7 +6,7 @@ export const Contacto = () => {
         <div className='d-flex contacto flex-column justify-content-cente'>
 
             <div className='container d-flex justify-content-center align-items-center'>
-                <img src={'assets/marcel.png'} alt="" />
+                <img src={'assets/marcel.png'} alt="" style={{ width: '250px' }} />
 
                 <div className='contact-info'>
                     <h4><a className='animate__animated animate__flash' href="mailto:marcelmolina.dev@gmail.com"><i className="fas fa-caret-right me-1"></i>marcelmolina.dev@gmail.com</a> </h4>
