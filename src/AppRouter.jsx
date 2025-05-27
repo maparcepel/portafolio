@@ -1,17 +1,16 @@
-import React from 'react'
 import {
+    Redirect,
+    Route,
     HashRouter as Router,
     Switch,
-    Route,
-    Redirect,
 } from 'react-router-dom';
 
-import { NavBar } from './NavBar';
-import { Portafolio } from './Portafolio';
-import  Grability  from './Grability';
-import { SobreMi } from './SobreMi';
-import { MasSobreMi } from './MasSobreMi';
-import { Contacto } from './Contacto';
+import Grability from './components/Grability';
+import { MasSobreMi } from './components/MasSobreMi';
+import { Contacto } from './components/parts/Contacto';
+import { NavBar } from './components/parts/NavBar';
+import { Portafolio } from './components/parts/Portafolio';
+import { SobreMi } from './components/SobreMi';
 
 
 const AppRouter = () => {

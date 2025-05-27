@@ -1,10 +1,10 @@
-import AppRouter from './components/AppRouter.js';
+import AppRouter from './AppRouter.jsx';
 import './styles/styles.scss';
 
 function App() {
     return (
 
-        <AppRouter / >
+        <AppRouter />
     );
 }
 

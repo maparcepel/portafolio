@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const Timeline = () => {
     return (
@@ -19,9 +18,13 @@ export const Timeline = () => {
             <div className='col-6 sobre-mi-right'>
                 <h4>Desarrollador Full Stack en <a href="https://es.linkedin.com/company/grability-inc-" target='blank'><strong>Grability</strong></a> </h4>
                 <p>
-                    Trabajando para el supermercado de <strong>El Corte Inglés</strong> y el <strong>Hipercor</strong> como full stack del CMS y backend de la app.<br />
-                    Creando nuevas funcionalidades, mejorando las existentes y resolviendo incidencias, con <strong>PHP, Laravel y PostgreSQL</strong>.<br />
-                    Con <strong>ReactJS</strong>, migrando el antiguo front del CMS y creando nuevos módulos .
+                    Empresa responsable de la app de supermercados de El Corte Inglés e Hipercor.
+                </p>
+                <p>
+                    Mantenimiento y mejora del CMS que administraba la app (Laravel, React, PostgreSQL). Además gestioné la interacción con el cliente en horario matutino, resolviendo incidencias y coordinando con el resto del equipo en Colombia, que se unía por las tardes.
+                </p>
+                <p>
+                    Otras tareas: automatización de informes desde la base de datos y la supervisión del cambio de catálogo cada dos semanas. Además fui responsable de analizar discrepancias entre la app y la web, garantizando la coherencia en precios y ofertas.
                 </p>
 
             </div>

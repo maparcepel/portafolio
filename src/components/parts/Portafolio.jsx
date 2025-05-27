@@ -1,5 +1,4 @@
-import React from 'react';
-import Projects from './Projects';
+import Projects from '../Projects';
 
 export const Portafolio = () => {
 
@@ -21,9 +20,9 @@ export const Portafolio = () => {
                     <div className="col-sm-8 col-md-6 col-lg-5 text-center">
                         <img className='img-fluid' src={'/assets/logo.png'} alt="Marcel Molina" />
                         <h1 className='mt-4 main-title'>Desarrollador Web Full Stack</h1>
-                        <h3 className='mt-4 secondary-title'>PHP | Laravel | SQL</h3>
-                        <h3 className='mt-1 secondary-title'>JavaScript | ReactJS | Redux | HTML | CSS</h3>
-                        <h3 className='mt-1 secondary-title'>Node | Express | MongoDB</h3>
+                        <h2 className='mt-4 secondary-title'>PHP | Laravel | SQL</h2>
+                        <h2 className='mt-1 secondary-title'>JavaScript | Typescript</h2>
+                        <h2 className='mt-1 secondary-title'>React | Redux | Node</h2>
                     </div>
 
                     <div className="col-sm-1 col-md-2 col-lg-3">
