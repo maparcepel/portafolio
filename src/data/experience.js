@@ -8,7 +8,7 @@ export const EXPERIENCE = [
     'description': 'Empresa responsable de la app de supermercados de El Corte Inglés e Hipercor',
     'years': '2021-2023',
     'summary': [
-      'Mantenimiento y mejora del CMS que administraba la app (Laravel, React, PostgreSQL). Además gestioné la interacción con el cliente en horario matutino, resolviendo incidencias y coordinando con el resto del equipo en Colombia, que se unía por las tardes.',
+      'Mantenimiento y mejora del CMS que administraba la app (Laravel, React, PostgreSQL). Durante las mañanas gestionaba directamente la interacción con el cliente, resolviendo incidencias y coordinando tareas. Por las tardes, trabajaba junto al equipo en Colombia, con quienes manteníamos una colaboración fluida en remoto.',
       'inistraba la app (Laravel, React, PostgreSQL). Además gestioné la interacción con el cliente en horario matutino, resolviendo incidencias y coordinando con el resto del equipo en Colombia, que se unía por las tardes.',
     ]
   },
@@ -21,7 +21,7 @@ export const EXPERIENCE = [
     'description': 'Empresa responsable de la app de supermercados de El Corte Inglés e Hipercor hasta diciembre 2023',
     'years': '2021-2023',
     'summary': [
-      'Mantenimiento y mejora del CMS que administraba la app (Laravel, React, PostgreSQL). Además gestioné la interacción con el cliente en horario matutino, resolviendo incidencias y coordinando con el resto del equipo en Colombia, que se unía por las tardes.',
+      'Mantenimiento y mejora del CMS que administraba la app (Laravel, React, PostgreSQL). Durante las mañanas gestionaba directamente la interacción con el cliente, resolviendo incidencias y coordinando tareas. Por las tardes, trabajaba junto al equipo en Colombia, con quienes manteníamos una colaboración fluida en remoto.',
       'Otras tareas: automatización de informes desde la base de datos y la supervisión del cambio de catálogo cada dos semanas. Además fui responsable de analizar discrepancias entre la app y la web, garantizando la coherencia en precios y ofertas.',
     ]
   },

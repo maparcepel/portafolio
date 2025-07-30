@@ -1,7 +1,7 @@
 import { projects } from '../data/projects';
 import ProjectCard from './parts/ProjectCard';
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <div className='container d-flex justify-content-center'>
       {
@@ -12,5 +12,3 @@ const Projects = () => {
     </div>
   )
 }
-
-export default Projects

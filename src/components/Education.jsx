@@ -1,5 +1,5 @@
 
-export const Timeline = () => {
+export const Education = () => {
     return (
         <div className='row mt-5 animate__animated animate__fadeIn' id='timeline'>
             <div className='col-6 text-center pe-0 mb-4'>

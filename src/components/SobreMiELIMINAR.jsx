@@ -1,6 +1,5 @@
-import React from 'react'
+import { Timeline } from './Education'
 import { Skills } from './Skills'
-import { Timeline } from './Timeline'
 
 export const SobreMi = () => {
     return (

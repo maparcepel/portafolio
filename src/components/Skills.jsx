@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const Skills = () => {
     return (
@@ -56,9 +55,9 @@ export const Skills = () => {
                         <ul>
                             <li>SOLID</li>
                             <li>Clean Code</li>
+                            <li>Testing</li>
                             <li>Git</li>
                             <li>Scrum</li>
-                            <li>Jira</li>
                             <li>Photoshop</li>
                         </ul>
                     </div>
