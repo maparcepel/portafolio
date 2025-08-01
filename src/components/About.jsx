@@ -6,13 +6,11 @@ export const About = () => {
         <div className="container-fluid animate__animated animate__fadeIn" >
             <div className="row my-5">
                 <div className="col-xs-2 col-sm-2 col-md-2 col-lg-1 p-0">
-                    <img className='portfolio__face' src={'/assets/face.png'} alt="Marcel" />
+                    <img className='portfolio__face' src={'/assets/face.png'} alt="Marcel Molina" />
 
                 </div>
 
                 <div className="col-sm-1 col-md-2 col-lg-3">
-
-
                 </div>
 
                 <div className="col-sm-8 col-md-6 col-lg-5 text-center">

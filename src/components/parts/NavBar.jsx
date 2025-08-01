@@ -2,7 +2,7 @@ import { useLanguage } from "../../LanguageProvider";
 import { navbarTranslations } from "../../locales/navbar";
 
 export const NavBar = () => {
-    const { lang, setLang } = useLanguage();
+    const { lang/* , setLang */ } = useLanguage();
     const t = navbarTranslations[lang];
     return (
         <nav className="navbar navbar-expand-md navbar-dark ">
@@ -20,10 +20,10 @@ export const NavBar = () => {
                             <a href="#projects">{t.projects}</a>
                             <a href="#contact">{t.contact}</a>
                         </div>
-                        <div>
+                        {/* <div>
                             <button onClick={() => setLang("es")}>ES</button>
                             <button onClick={() => setLang("en")}>EN</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
