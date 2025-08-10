@@ -5,7 +5,7 @@ export const experienceTranslations = {
       position: 'Desarrollador Full Stack',
       tasks: [
         'Desarrollo de nuevas funcionalidades para la aplicación principal.',
-        'Creación de una app de business intelligence que importa y unifica datos desde diversas fuentes, como bases de datos, CRM y archivos .csv, y genera métricas para facilitar el análisis utilizando Metabase para la visualización.',
+        'Creación de una aplicación de business intelligence que importa y unifica datos desde diversas fuentes, como bases de datos, CRM y archivos .csv, y genera métricas para facilitar el análisis utilizando Metabase para la visualización.',
         'Implementación de un importador de reservas y clientes provenientes de la competencia.',
         'Además, actualización de la web corporativa.',
       ],
@@ -17,13 +17,13 @@ export const experienceTranslations = {
       tasks: [
         'Mantenimiento y mejora del CMS que administraba la app.',
         'Debido a que el resto del equipo estaba ubicado en Colombia, por las mañanas gestionaba directamente la interacción con el cliente, resolviendo incidencias y coordinando tareas, y por las tardes trabajaba junto al equipo, con quienes manteníamos una colaboración fluida en remoto.',
-        'Migración del front desde Ember JS a React JS .',
+        'Migración del front desde Ember JS a React JS.',
         'Automatización de informes desde la base de datos.',
         'Supervisión del cambio de catálogo cada dos semanas.',
         'Además fui responsable de analizar discrepancias entre la app y la web, garantizando la coherencia en precios y ofertas.',
       ],
       tools: ['PHP', 'Laravel', 'PostgreSQL', 'Javascript', 'React JS', 'Docker'],
-      company_info: 'Empresa responsable de la app de supermercados de El Corte Inglés e Hipercor.'
+      company_info: 'Empresa responsable de la app del supermercado de El Corte Inglés e Hipercor.'
     },
     gestinet: {
       position: 'Estudiante en prácticas',
