@@ -1,30 +1,42 @@
+import { useLanguage } from "../LanguageProvider";
+import { aboutTranslations } from "../locales/about";
 
 export const About = () => {
-
+    const { lang } = useLanguage();
+    const t = aboutTranslations[lang];
 
     return (
-        <div className="container-fluid animate__animated animate__fadeIn" >
-            <div className="row my-5">
-                <div className="col-xs-2 col-sm-2 col-md-2 col-lg-1 p-0">
-                    <img className='portfolio__face' src={'/assets/face.png'} alt="Marcel Molina" />
+        <>
+            <div className="container-fluid animate__animated animate__fadeIn" >
+                <div className="row my-5">
+                    <div className="col-xs-2 col-sm-2 col-md-2 col-lg-1 p-0">
+                        <img className='portfolio__face' src={'/assets/face.png'} alt="Marcel Molina" />
+                    </div>
 
+                    <div className="col-sm-1 col-md-2 col-lg-3">
+                    </div>
+
+                    <div className="col-sm-8 col-md-6 col-lg-5 text-center mb-5">
+                        <img className='img-fluid' src={'/assets/logo.png'} alt="Marcel Molina" />
+                        <h1 className='mt-4 main-title'>{t.web_developer}</h1>
+                        <h2 className='mt-4 secondary-title'>PHP | Laravel | SQL</h2>
+                        <h2 className='mt-1 secondary-title'>JavaScript | Typescript</h2>
+                        <h2 className='mt-1 secondary-title'>React | Redux | Node</h2>
+                    </div>
+
+                    <div className="col-sm-1 col-md-2 col-lg-3">
+                    </div>
                 </div>
 
-                <div className="col-sm-1 col-md-2 col-lg-3">
-                </div>
+            </div >
+            <div className="container animate__animated animate__fadeIn d-flex">
+                <div className='row'>
+                    <div className='col-lg-6 mt-5 fst-italic'>{t.description1}</div>
+                    <div className='col-lg-6 mt-5 fst-italic'>{t.description2}</div>
 
-                <div className="col-sm-8 col-md-6 col-lg-5 text-center">
-                    <img className='img-fluid' src={'/assets/logo.png'} alt="Marcel Molina" />
-                    <h1 className='mt-4 main-title'>Desarrollador Web Full Stack</h1>
-                    <h2 className='mt-4 secondary-title'>PHP | Laravel | SQL</h2>
-                    <h2 className='mt-1 secondary-title'>JavaScript | Typescript</h2>
-                    <h2 className='mt-1 secondary-title'>React | Redux | Node</h2>
-                </div>
-
-                <div className="col-sm-1 col-md-2 col-lg-3">
                 </div>
             </div>
-        </div >
+        </>
 
     )
 }

@@ -10,7 +10,7 @@ import './styles/styles.scss';
 function App() {
     return (
         <LanguageProvider>
-            <div className='d-flex flex-column justify-content-between main-container mt-2'>
+            <div>
                 <div>
                     <div id="navbar">
                         <NavBar />
