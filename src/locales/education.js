@@ -39,30 +39,19 @@ export const educationTranslations = {
         author: 'JuanD MeGon'
       }
     ],
-    programs: {
-      barcelona_activa: {
-        title: 'Backend con Node.js.',
-        school: 'IT Academy - Barcelona Activa',
-        web: 'barcelonactiva.cat',
-        url: 'https://www.barcelonactiva.cat/es/itacademy',
-        period: '2021',
-      },
-      ioc: {
-        title: 'Grado superior en Desarrollo de Aplicaciones Web',
-        description: 'Prácticas en la empresa Gestinet.',
-        school: 'Institut Obert de Catalunya (IOC)',
-        web: 'ioc.xtec.cat',
-        url: 'https://ioc.xtec.cat/educacio/cfgs-daw',
-        period: '2019 - 2021',
-      },
-      upc_school: {
-        title: 'Curso Desarrollo de aplicaciones con tecnología web',
-        description: 'Html, CSS, Javascript, PHP, SQL. Prácticas en la empresa Clicko.',
-        school: 'UPC School (Universitat Politècnica de Catalunya)',
-        web: '',
-        url: '',
-        period: '2019 - 2021',
-      },
+    barcelona_activa: {
+      title: 'Backend con Node.js.',
+      school: 'IT Academy - Barcelona Activa'
+    },
+    ioc: {
+      title: 'Grado superior en Desarrollo de Aplicaciones Web',
+      school: 'Institut Obert de Catalunya (IOC)',
+      description: 'Prácticas en la empresa Gestinet.'
+    },
+    upc_school: {
+      title: 'Curso Desarrollo de aplicaciones con tecnología web',
+      school: 'UPC School (Universitat Politècnica de Catalunya)',
+      description: 'Html, CSS, Javascript, PHP, SQL. Prácticas en la empresa Clicko.'
     }
   },
 };

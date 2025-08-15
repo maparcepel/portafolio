@@ -1,11 +1,16 @@
 
-const ContinuingEducationCard = ({edu}) => {
+const ContinuingEducationCard = ({edu, title}) => {
   return (
-    <div>
-      <h4>
-        <a href={edu.url} target='_blank' rel='noopener noreferrer'>{edu.title}</a> - <span className='author-small'>{edu.author}</span>
+    <div className='mb-5'>
+      <h3 className='section-subtitle blue'>{title}</h3>
+      <hr className='mt-0 blue'/>
+      {edu.map((e, index) => (
+        <p key={index}>
+          <a href={e.url} target='_blank' rel='noopener noreferrer'>{e.title}</a> - <span className='author-small'>{e.author}</span>
+        </p>
+      ))}
 
-      </h4>
+
     </div>
   )
 }

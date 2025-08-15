@@ -1,6 +1,8 @@
 import { useLanguage } from "../LanguageProvider";
+import { educationPrograms } from "../data/educationPrograms";
 import { educationTranslations } from "../locales/education";
 import ContinuingEducationCard from "./parts/ContinuingEducationCard";
+import EducationCard from "./parts/EducationCard";
 import SectionTitle from "./parts/SectionTitle";
 
 export const Education = () => {
@@ -11,10 +13,10 @@ export const Education = () => {
         <div className='container mt-5 animate__animated animate__fadeIn'>
             <SectionTitle title={t.section_title} />
 
-            <h3 className='section-subtitle blue'>{t.continuing_education_title}</h3>
+            <ContinuingEducationCard edu={t.continuing_education} title={t.continuing_education_title}/>
 
-            {t.continuing_education.map(edu => (
-                <ContinuingEducationCard edu={edu} />
+            {educationPrograms.map((edu, index) => (
+                <EducationCard edu={edu} key={index} />
             ))}
         </div>
     )

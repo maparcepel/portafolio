@@ -75,6 +75,12 @@ body {
     }
 }
 
+a{
+    &:hover {
+        color: $blue;
+    }
+}
+
 
 @import 'navBar';
 @import 'about';

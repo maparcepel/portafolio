@@ -12,8 +12,8 @@ export const Experience = () => {
         <div className='container mt-5 animate__animated animate__fadeIn'>
             <SectionTitle title={t.section_title} />
 
-            {experiences.map(exp => (
-                <ExperienceCard exp={exp} />
+            {experiences.map((exp, index) => (
+                <ExperienceCard exp={exp} key={index}/>
             ))}
         </div>
     )

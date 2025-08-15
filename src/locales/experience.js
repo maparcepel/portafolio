@@ -9,7 +9,8 @@ export const experienceTranslations = {
         'Implementación de un importador de reservas y clientes provenientes de la competencia.',
         'Además, actualización de la web corporativa.',
       ],
-      tools: ['PHP', 'Laravel', 'PostgreSQL', 'Javascript', 'React JS', 'Node JS', 'Typescript', 'Docker', 'Arquitectura hexagonal'],
+      tools1: ['PHP', 'Laravel', 'PostgreSQL', 'Javascript', 'React JS'],
+      tools2: ['Node JS', 'Typescript', 'Docker', 'Arquitectura hexagonal', 'Testing con Pest'],
       company_info: 'Sistema digital de gestión de reservas para restaurantes.'
     },
     grability: {
@@ -22,7 +23,8 @@ export const experienceTranslations = {
         'Supervisión del cambio de catálogo cada dos semanas.',
         'Además fui responsable de analizar discrepancias entre la app y la web, garantizando la coherencia en precios y ofertas.',
       ],
-      tools: ['PHP', 'Laravel', 'PostgreSQL', 'Javascript', 'React JS', 'Docker'],
+      tools1: ['PHP', 'Laravel', 'PostgreSQL'],
+      tools2: ['Javascript', 'React JS', 'Docker'],
       company_info: 'Empresa responsable de la app del supermercado de El Corte Inglés e Hipercor.'
     },
     gestinet: {
@@ -30,7 +32,8 @@ export const experienceTranslations = {
       tasks: [
         'Colaboré en proyectos para clientes de distintos sectores, desarrollando y adaptando sitios web.',
       ],
-      tools: ['WordPress', 'PHP', 'JavaScript','CSS'],
+      tools1: ['WordPress', 'PHP'],
+      tools2: ['JavaScript','CSS'],
       company_info: 'Cosultoria Tecnològica.'
     },
     clicko: {
@@ -38,7 +41,8 @@ export const experienceTranslations = {
       tasks: [
         'Colaboré en proyectos para clientes de distintos sectores.',
       ],
-      tools: ['PHP', 'Laravel'],
+      tools1: ['PHP', 'Laravel'],
+      tools2: ['Javascript', 'CSS'],
       company_info: 'Cosultoria Tecnològica.'
     },
     binary_sunset: {
@@ -46,7 +50,6 @@ export const experienceTranslations = {
       tasks: [
         'Grabación, mezcla y mastering.',
       ],
-      tools: [],
       company_info: 'Estudio de grabación'
     },
   },
