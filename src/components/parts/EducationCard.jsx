@@ -13,16 +13,19 @@ const EducationCard = ({edu}) => {
       <p>
         {t[edu.id].school}
       </p>
-      {t[edu.id].description && (
-        <p>{t[edu.id].description}</p>
-      )}
+
       {edu.web && (
         <p>
           <a href={edu.url} target="_blank" rel="noopener noreferrer">{edu.web}</a>
         </p>
       )}
+
+      {t[edu.id].description && (
+        <p>{t[edu.id].description}</p>
+      )}
+
       <p>
-        {edu.period}
+        {t[edu.id].period}
       </p>
     </div>
   )
