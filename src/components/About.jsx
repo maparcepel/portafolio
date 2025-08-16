@@ -18,10 +18,28 @@ export const About = () => {
 
                     <div className="col-sm-8 col-md-6 col-lg-5 text-center mb-5">
                         <img className='img-fluid' src={'/assets/logo.png'} alt="Marcel Molina" />
+
                         <h1 className='mt-4 main-title'>{t.web_developer}</h1>
-                        <h2 className='mt-4 secondary-title'>PHP | Laravel | SQL</h2>
-                        <h2 className='mt-1 secondary-title'>JavaScript | Typescript</h2>
-                        <h2 className='mt-1 secondary-title'>React | Redux | Node</h2>
+
+                        <h2 className='mt-4 tools-name'>
+                            <span className='left-tool bg-yellow'>PHP</span>
+                            <img className='corners' src={'/assets/corners.svg'} alt='tools'/>
+                            <span className='tool bg-yellow'>Laravel</span>
+                            <img className='corners' src={'/assets/corners.svg'}  alt='tools'/>
+                            <span className='right-tool bg-yellow'>SQL</span>
+                        </h2>
+                         <h2 className='mt-3 tools-name'>
+                            <span className='left-tool bg-yellow'>JavaScript</span>
+                            <img className='corners' src={'/assets/corners.svg'}  alt='tools'/>
+                            <span className='right-tool bg-yellow'>Typescript</span>
+                         </h2>
+                        <h2 className='mt-3 tools-name'>
+                            <span className='left-tool bg-yellow'>React</span>
+                            <img className='corners' src={'/assets/corners.svg'}  alt='tools'/>
+                            <span className='tool bg-yellow'>Redux</span>
+                            <img className='corners' src={'/assets/corners.svg'}  alt='tools'/>
+                            <span className='right-tool bg-yellow'>Node</span>
+                        </h2>
                     </div>
 
                     <div className="col-sm-1 col-md-2 col-lg-3">

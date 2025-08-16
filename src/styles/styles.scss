@@ -3,6 +3,8 @@ $blue: #265e84;
 $grey: rgba(255, 255, 255, 0.487);
 $light-grey: rgb(232, 232, 232);
 $bg-black-transparent: rgba(0, 0, 0, 0.278);
+$bg-light: #e5722684;
+$yellow: #de9a1b;
 
 .grey {
     color: $grey;
@@ -10,6 +12,10 @@ $bg-black-transparent: rgba(0, 0, 0, 0.278);
 
 .blue {
     color: $blue;
+}
+
+.bg-yellow {
+    background-color: $yellow;
 }
 
 %glass {
@@ -45,24 +51,9 @@ body {
     height: 100%;
 }
 
-.main-title {
-    font-family: "Big Shoulders Display", sans-serif;
-    /*     font-optical-sizing: auto;
- */
-    font-weight: 300;
-    font-style: normal;
-}
-
-.secondary-title {
-    font-family: "Big Shoulders Display", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
 .section-title {
     font-family: "Big Shoulders Display", sans-serif;
     font-weight: 300;
-    text-align: center;
     font-size: 8rem;
     letter-spacing: 0.3em;
 }

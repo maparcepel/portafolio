@@ -11,7 +11,8 @@ export const experienceTranslations = {
       ],
       tools1: ['PHP', 'Laravel', 'PostgreSQL', 'Javascript', 'React JS'],
       tools2: ['Node JS', 'Typescript', 'Docker', 'Arquitectura hexagonal', 'Testing con Pest'],
-      company_info: 'Sistema digital de gestión de reservas para restaurantes.'
+      company_info: 'Sistema digital de gestión de reservas para restaurantes.',
+      period: '2024 - actualidad',
     },
     grability: {
       position: 'Desarrollador Full Stack',
@@ -25,7 +26,8 @@ export const experienceTranslations = {
       ],
       tools1: ['PHP', 'Laravel', 'PostgreSQL'],
       tools2: ['Javascript', 'React JS', 'Docker'],
-      company_info: 'Empresa responsable de la app del supermercado de El Corte Inglés e Hipercor.'
+      company_info: 'Empresa responsable de la app del supermercado de El Corte Inglés e Hipercor.',
+      period: '2021 - 2023',
     },
     gestinet: {
       position: 'Estudiante en prácticas',
@@ -34,23 +36,26 @@ export const experienceTranslations = {
       ],
       tools1: ['WordPress', 'PHP'],
       tools2: ['JavaScript','CSS'],
-      company_info: 'Cosultoria Tecnològica.'
+      company_info: 'Cosultoria Tecnològica.',
+      period: '2020 (4 meses)',
     },
     clicko: {
       position: 'Estudiante en prácticas',
       tasks: [
-        'Colaboré en proyectos para clientes de distintos sectores.',
+        'Colaboré en proyectos para clientes de distintos sectores, desarrollando y adaptando sitios web.',
       ],
       tools1: ['PHP', 'Laravel'],
       tools2: ['Javascript', 'CSS'],
-      company_info: 'Cosultoria Tecnològica.'
+      company_info: 'Cosultoria Tecnològica.',
+      period: '2019 (1 mes)',
     },
     binary_sunset: {
       position: 'Técnico de sonido',
       tasks: [
         'Grabación, mezcla y mastering.',
       ],
-      company_info: 'Estudio de grabación'
+      company_info: 'Estudio de grabación',
+      period: '2013 - 2020',
     },
   },
   en: {

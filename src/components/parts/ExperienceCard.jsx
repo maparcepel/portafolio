@@ -28,7 +28,7 @@ const ExperienceCard = ({exp}) => {
             <a href={exp.url} target="_blank" rel="noopener noreferrer">{exp.web}</a>
           </p>
           <p>
-            {exp.period}
+            {t[exp.id].period}
           </p>
         </div>
 
@@ -42,14 +42,14 @@ const ExperienceCard = ({exp}) => {
             <div className='col-lg-6'>
               <ul className='tool-list mb-0'>
                 {t[exp.id].tools1?.map((tool, index) => (
-                    <li key={index}>{tool}</li>
+                    <li className='bg-yellow' key={index}>{tool}</li>
                 ))}
               </ul>
             </div>
             <div className='col-lg-6'>
               <ul className='tool-list'>
                 {t[exp.id].tools2?.map((tool, index) => (
-                    <li key={index}>{tool}</li>
+                    <li className='bg-yellow' key={index}>{tool}</li>
                 ))}
               </ul>
             </div>
