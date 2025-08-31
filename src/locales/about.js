@@ -1,7 +1,7 @@
 export const aboutTranslations = {
   es: {
     web_developer: "Desarrollador Web Full Stack",
-    description1: "Como desarrollador web full stack con experiencia en PHP, Laravel, PostgreSQL, JavaScript y React, he trabajado principalmente en backend, pero también disfruto creando y optimizando interfaces en frontend. He participado en el desarrollo y mantenimiento de CMS, implementación de nuevas funcionalidades, migración de interfaces legacy, resolución de incidencias, integración de datos y business intelligence.",
+    description1: "Como desarrollador web full stack he trabajado principalmente en backend, pero también disfruto creando y optimizando interfaces en frontend. He participado en el desarrollo y mantenimiento de CMS, implementación de nuevas funcionalidades, migración de interfaces legacy, resolución de incidencias, integración de datos y business intelligence.",
     description2: "Me implico totalmente en cada proyecto en el que participo, con el compromiso de entender a fondo sus necesidades y aportar soluciones prácticas y eficientes. Me motiva seguir aprendiendo y aplicar nuevas tecnologías para afrontar desafíos técnicos complejos, siempre con el objetivo de aportar valor al equipo y al producto final."
   },
   en: {

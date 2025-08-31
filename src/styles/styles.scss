@@ -94,9 +94,15 @@ a{
     font-size: 0.9rem;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 @import 'navBar';
 @import 'about';
 @import 'experience';
 @import 'education';
 @import 'contacto';
 @import 'skills';
+@import 'projects';

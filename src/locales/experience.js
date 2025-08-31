@@ -10,7 +10,7 @@ export const experienceTranslations = {
         'Además, actualización de la web corporativa.',
       ],
       tools1: ['PHP', 'Laravel', 'PostgreSQL', 'Javascript', 'React JS'],
-      tools2: ['Node JS', 'Typescript', 'Docker', 'Arquitectura hexagonal', 'Testing con Pest'],
+      tools2: ['Node JS', 'Typescript', 'Docker', 'Testing con Pest', 'Arquitectura hexagonal'],
       company_info: 'Sistema digital de gestión de reservas para restaurantes.',
       period: '2024 - actualidad',
     },
