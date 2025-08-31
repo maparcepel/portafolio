@@ -3,7 +3,7 @@ export const Contact = () => {
 
 
     return (
-        <div className='d-flex contacto flex-column justify-content-cente'>
+        <div className='d-flex contacto flex-column justify-content-center'>
 
             <div className='container d-flex justify-content-center align-items-center'>
                 <img src={'assets/marcel.png'} alt="" style={{ width: '250px' }} />
