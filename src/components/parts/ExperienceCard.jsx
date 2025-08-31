@@ -1,5 +1,6 @@
 import { useLanguage } from "../../LanguageProvider";
 import { experienceTranslations } from "../../locales/experience";
+import ToolItem from "./ToolItem";
 
 const ExperienceCard = ({exp}) => {
   const { lang } = useLanguage();
@@ -39,7 +40,7 @@ const ExperienceCard = ({exp}) => {
               <div className='col-lg-6'>
                 <ul className='tool-list mb-0'>
                   {t[exp.id].tools1?.map((tool, index) => (
-                    <li className='bg-yellow' key={index}>{tool}</li>
+                    <ToolItem key={index} tool={tool}/>
                   ))}
                 </ul>
               </div>
@@ -47,7 +48,7 @@ const ExperienceCard = ({exp}) => {
               <div className='col-lg-6'>
                 <ul className='tool-list'>
                   {t[exp.id].tools2?.map((tool, index) => (
-                    <li className='bg-yellow' key={index}>{tool}</li>
+                    <ToolItem key={index} tool={tool}/>
                   ))}
                 </ul>
               </div>

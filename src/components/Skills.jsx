@@ -1,3 +1,5 @@
+import ToolItem from "../components/parts/ToolItem";
+import { skills } from "../data/skills";
 import { useLanguage } from "../LanguageProvider";
 import { skillsTranslations } from "../locales/skills";
 import SectionTitle from "./parts/SectionTitle";
@@ -10,57 +12,47 @@ export const Skills = () => {
         <div className='container animate__animated animate__fadeIn mb-5'>
             <SectionTitle title={t.section_title} />
 
-            <div className='row mt-5  justify-content-center'>
-                <div className='col-xs-12 col-sm-6 col-lg-3 d-flex justify-content-lg-center'>
+            <div className='row mt-5'>
+                <div className='col-md-12 col-lg-6'>
                     <div className='skills'>
                         <h4>{t.languages}</h4>
-                        <ul>
-                            <li>PHP</li>
-                            <li>SQL</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>CSS</li>
-                            <li>Html</li>
+                        <ul className='tool-list mt-3'>
+                            {skills.languages?.map((tool, index) => (
+                                <ToolItem key={index} tool={tool}/>
+                            ))}
                         </ul>
-
                     </div>
-
                 </div>
 
-                <div className='col-xs-12 col-sm-6 col-lg-3 d-flex justify-content-lg-center'>
+                <div className='col-md-12 col-lg-6'>
                     <div className='skills'>
-
                         <h4>{t.frameworks}</h4>
-                        <ul>
-                            <li>Laravel</li>
-                            <li>ReactJS</li>
-                            <li>Redux</li>
-                            <li>Express</li>
-                            <li>Bootstrap</li>
+                        <ul className='tool-list mt-3'>
+                            {skills.frameworks?.map((tool, index) => (
+                                <ToolItem key={index} tool={tool}/>
+                            ))}
                         </ul>
                     </div>
                 </div>
 
-                <div className='col-xs-12 col-sm-6 col-lg-3 d-flex justify-content-lg-center'>
+                <div className='col-md-12 col-lg-6'>
                     <div className='skills'>
                         <h4>{t.databases}</h4>
-                        <ul>
-                            <li>MySQL</li>
-                            <li>MongoDB</li>
+                        <ul className='tool-list mt-3'>
+                            {skills.databases?.map((tool, index) => (
+                                <ToolItem key={index} tool={tool}/>
+                            ))}
                         </ul>
                     </div>
                 </div>
 
-                <div className='col-xs-12 col-sm-6 col-lg-3 d-flex justify-content-lg-center'>
+                <div className='col-md-12 col-lg-6'>
                     <div className='skills'>
                         <h4>{t.others}</h4>
-                        <ul>
-                            <li>SOLID</li>
-                            <li>Clean Code</li>
-                            <li>Testing</li>
-                            <li>Git</li>
-                            <li>Scrum</li>
-                            <li>Photoshop</li>
+                        <ul className='tool-list mt-3'>
+                            {skills.others?.map((tool, index) => (
+                                <ToolItem key={index} tool={tool}/>
+                            ))}
                         </ul>
                     </div>
                 </div>
