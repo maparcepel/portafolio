@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 39" width="15" height="39">
+	<title>corners</title>
+	<defs>
+		<image  width="16" height="39" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAnCAMAAAAxUjhGAAAAAXNSR0IB2cksfwAAAO1QTFRF3pob3pob3pob3pob3pob3pob3pobAAAA3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pob3pobrGYftAAAAE90Uk5T//3npE0iDADadwYDAQD7rzYIAvWAEQSJFqIaziXwSZYN4UitG/NpBTPNm14yGAoLGTFGYZnS7Er5kBD+9H3eO7AdF+94E+11oHEjB+aXHsbBc+0AAAD/SURBVHicXdLNSwJBGMfx5xcqQdElESIMEgpK7c01AsVL0KV/umMEBSG+bBasBxFFDa0p2Fmo2WF3fZ6dw8D3MzPPaUDxQrTi3kSQNelHsBOeKXvR9q7JZfTSdgafyahw28NKc9jHjyIGRXyv2wAOMCYOh5hqDihh4nM4AjzisHE88gWczFYk4HQYSCi/k4TKIAXVtxScuTxzPrbEzEyA837qxkUvBZddAYSrjug/1FwtwfnyJNRHc9YGrjFQ6zZwAzwLaCzGgeZATSzdpEOgFtoqbguNLF5V1BYIhfJT/E8s0C3wKIDu8IJfDtTcnnjQDAhOHngAEjB0j05l+PEP0xpSj6Ku+CoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="img1" href="#img1" x="0" y="0"/>
+</svg>

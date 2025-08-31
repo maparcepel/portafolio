@@ -1,11 +1,38 @@
-#logo-small {
-    width: 300px;
-    padding-right: 6px;
-}
+#navbar {
+    position: sticky;
+    top: 10px;
+    z-index: 1000;
 
-@media (max-width: 456px) {
     #logo-small {
-        width: 150px;
+        width: 300px;
         padding-right: 6px;
     }
+
+    @media (max-width: 456px) {
+        #logo-small {
+            width: 150px;
+            padding-right: 6px;
+        }
+    }
+
+    a {
+        padding: 0 6px;
+        margin-right: 1px;
+        font-size: 0.9rem;
+
+        &:hover {
+            color: $light-grey;
+        }
+    }
+
+    .navbar-nav {
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.313);
+        background: $bg-light;
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.147);
+    }
+
+
 }

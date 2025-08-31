@@ -1,0 +1,32 @@
+#education {
+  .education-card {
+    h2 {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-weight: 300;
+      color: $blue;
+      font-size: 3rem;
+      letter-spacing: 0.1em;
+      margin: 0;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #265e84;
+      width: 100%;
+    }
+  }
+
+  .author-small {
+    font-size: 0.8em;
+    opacity: 0.8;
+  }
+
+  .section-subtitle {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-weight: 300;
+      color: $blue;
+      font-size: 3rem;
+      letter-spacing: 0.2em;
+      margin: 0;
+  }
+}

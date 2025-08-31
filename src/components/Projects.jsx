@@ -1,17 +1,17 @@
-import React from 'react'
 import { projects } from '../data/projects';
-import ProjectCard from './ProjectCard'
+import ProjectCard from './parts/ProjectCard';
+import SectionTitle from "./parts/SectionTitle";
 
-const Projects = () => {
+export const Projects = () => {
   return (
-    <div className='container d-flex justify-content-center'>
-        {
-            projects.map((project, i) => (
-                <ProjectCard key={i} {...project} />
-            ))
-        }
+    <div className='container mt-5 animate__animated animate__fadeIn'>
+      <SectionTitle title={'Proyectos'} />
+
+      {
+        projects.map((project, i) => (
+          <ProjectCard key={i} {...project} />
+        ))
+      }
     </div>
   )
 }
-
-export default Projects
