@@ -42,17 +42,17 @@ export const educationTranslations = {
     barcelona_activa: {
       title: 'Backend con Node.js.',
       school: 'IT Academy - Barcelona Activa',
-      description: 'Javascript, Node.js, Express, Patterns, APIs, Bases de datos, git / Github.',
+      description: 'Javascript, Node.js, Express, Patterns, APIs, Bases de datos, git/Github.',
       period: '2021 (3 meses)',
     },
     ioc: {
-      title: 'Grado superior en Desarrollo de Aplicaciones Web',
+      title: 'Grado Superior en Desarrollo de Aplicaciones Web',
       school: 'Institut Obert de Catalunya (IOC)',
       description: 'Prácticas en la empresa Gestinet.',
       period: '2019 - 2021',
     },
     upc_school: {
-      title: 'Curso Desarrollo de aplicaciones web',
+      title: 'Curso Desarrollo de Aplicaciones Web',
       school: 'UPC School (Universitat Politècnica de Catalunya)',
       description: 'Html, CSS, Javascript, PHP, SQL. Prácticas en la empresa Clicko.',
       period: '2019 (6 meses)',

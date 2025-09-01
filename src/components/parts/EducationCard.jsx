@@ -8,20 +8,20 @@ const EducationCard = ({edu}) => {
   return (
     <div className='education-card mb-5'>
       <h2>{t[edu.id].title}</h2>
-      <hr className='mt-0'/>
+      <hr className='mt-0 mb-2'/>
 
-      <p>
+      <p className='mb-0'>
         {t[edu.id].school}
       </p>
 
       {edu.web && (
-        <p>
+        <p className='mb-0'>
           <a href={edu.url} target="_blank" rel="noopener noreferrer">{edu.web}</a>
         </p>
       )}
 
       {t[edu.id].description && (
-        <p>{t[edu.id].description}</p>
+        <p className='mb-0'>{t[edu.id].description}</p>
       )}
 
       <p>
