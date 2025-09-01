@@ -13,11 +13,11 @@ export const Education = () => {
         <div className='container mt-5 animate__animated animate__fadeIn'>
             <SectionTitle title={t.section_title} />
 
-            <ContinuingEducationCard edu={t.continuing_education} title={t.continuing_education_title}/>
-
             {educationPrograms.map((edu, index) => (
                 <EducationCard edu={edu} key={index} />
             ))}
+
+            <ContinuingEducationCard edu={t.continuing_education} title={t.continuing_education_title}/>
         </div>
     )
 }

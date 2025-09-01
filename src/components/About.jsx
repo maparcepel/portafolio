@@ -51,7 +51,6 @@ export const About = () => {
                 <div className='row cards-overlap align-items-center justify-content-center'>
                     <div className='col-lg-6 mt-5 fst-italic card-1'>{t.description1}</div>
                     <div className='col-lg-6 mt-5 fst-italic card-2'>{t.description2}</div>
-
                 </div>
             </div>
         </>
