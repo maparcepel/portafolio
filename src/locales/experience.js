@@ -4,10 +4,9 @@ export const experienceTranslations = {
     restoo: {
       position: 'Desarrollador Full Stack',
       tasks: [
-        'Desarrollo de nuevas funcionalidades para la aplicación principal.',
-        'Creación de una aplicación de business intelligence que importa y unifica datos desde diversas fuentes, como bases de datos, CRM y archivos .csv, y genera métricas para facilitar el análisis utilizando Metabase para la visualización.',
-        'Implementación de un importador de reservas y clientes provenientes de la competencia.',
-        'Además, actualización de la web corporativa.',
+        'Desarrollo de nuevas funcionalidades en Laravel (PHP 8), ReactJS y PostgreSQL',
+        'Desarrollo de sistema de business intelligence para importación de datos desde diferentes fuentes y dashboard en Metabase para análisis de reservas y clientes.',
+        'Actualización y mantenimiento de la web corporativa.',
       ],
       tools1: ['PHP', 'Laravel', 'PostgreSQL', 'Javascript', 'React JS'],
       tools2: ['Node JS', 'Typescript', 'Docker', 'Testing con Pest', 'Arquitectura hexagonal'],
@@ -27,7 +26,7 @@ export const experienceTranslations = {
       tools1: ['PHP', 'Laravel', 'PostgreSQL'],
       tools2: ['Javascript', 'React JS', 'Docker'],
       company_info: 'Empresa responsable de la app del supermercado de El Corte Inglés e Hipercor.',
-      period: '2021 - 2023',
+      period: '2021 - 2024',
     },
     gestinet: {
       position: 'Estudiante en prácticas',
@@ -35,7 +34,7 @@ export const experienceTranslations = {
         'Colaboré en proyectos para clientes de distintos sectores, desarrollando y adaptando sitios web.',
       ],
       tools1: ['WordPress', 'PHP'],
-      tools2: ['JavaScript','CSS'],
+      tools2: ['JavaScript', 'CSS'],
       company_info: 'Cosultoria Tecnològica.',
       period: '2020 (4 meses)',
     },
