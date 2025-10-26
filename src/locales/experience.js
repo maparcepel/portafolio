@@ -5,7 +5,7 @@ export const experienceTranslations = {
       position: 'Desarrollador Full Stack',
       tasks: [
         'Desarrollo de nuevas funcionalidades utilizando Laravel con PHP 8, React.js y PostgreSQL.',
-        'Uno de mis logros más interesantes ha sido un sistema de business intelligence (Node.js) que importa y unifica datos desde diferentes fuentes, creando después dashboards en Metabase para que el equipo tenga un análisis en tiempo real de reservas, clientes, ventas, soporte, etc.',
+        'Uno de mis logros más interesantes es un sistema de business intelligence (Node.js, Typescript) que importa y unifica datos desde diferentes fuentes (archivos .csv y la API del CRM Pipedrive), y la creación de dashboards en Metabase para que los equipos de ventas y soporte dispongan de métricas en tiempo real de reservas, clientes, ventas, soporte, etc.',
         'Encargado de mantener y actualizar la web corporativa.',
         'Trabajo en entorno Docker con arquitectura hexagonal, siguiendo metodologías Agile/Scrum y code reviews.',
         'Testing con Pest para asegurar la calidad.'
@@ -19,9 +19,8 @@ export const experienceTranslations = {
       position: 'Desarrollador Full Stack',
       tasks: [
         'Mantenimiento y mejora del CMS que administraba la app del supermercado de El Corte Inglés e Hipercor, con Laravel, React.js y PostgreSQL.',
-        'Debido a que el resto del equipo estaba ubicado en Colombia, por las mañanas gestionaba directamente la interacción con el cliente, resolviendo incidencias y coordinando tareas, y por las tardes trabajaba junto al equipo, con quienes manteníamos una colaboración fluida en remoto.',
+        'Generación de informes desde la base de datos.',
         'Migración del front desde Ember JS a React.js.',
-        'Automatización de informes desde la base de datos.',
         'Supervisión del cambio de catálogo cada dos semanas.',
         'Además fui responsable de analizar discrepancias entre la app y la web, garantizando la coherencia en precios y ofertas.',
       ],
