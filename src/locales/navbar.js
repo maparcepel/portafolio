@@ -15,4 +15,12 @@ export const navbarTranslations = {
     projects: "Projects",
     contact: "Contact",
   },
+  ca: {
+    about: "Sobre mi",
+    experience: "Experiència",
+    education: "Formació",
+    skills: "Competències",
+    projects: "Projectes",
+    contact: "Contacte",
+  },
 };
